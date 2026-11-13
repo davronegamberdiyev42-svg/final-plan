@@ -1,0 +1,21 @@
+IELTS BOOST STAGE 57.0 — REPOSITORY ROOT LAYOUT
+Target repository name: final-plan
+GitHub Pages path: /final-plan/
+
+Extract every ZIP entry into the repository root. There is no enclosing top-level directory.
+
+index.html
+manifest.webmanifest
+sw.js
+release-check.html
+README_UZ.md
+INSTALL_FINAL_STAGE_UZ.md
+assets/
+data/
+audio/
+icons/
+docs/
+tests/
+.nojekyll
+
+Pages source: main branch / (root). Do not upload the ZIP archive itself.

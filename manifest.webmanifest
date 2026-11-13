@@ -1,0 +1,48 @@
+{
+  "id": "./",
+  "name": "IELTS Boost — Stage 57 Final Release",
+  "short_name": "IELTS Boost",
+  "lang": "uz",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#f3f6fb",
+  "theme_color": "#f3f6fb",
+  "description": "IELTS Boost final release: 84-day Academic IELTS learning, four skills, demand-loaded 19K vocabulary, local-first backup and offline audio.",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "prefer_related_applications": false,
+  "categories": [
+    "education",
+    "productivity"
+  ]
+}

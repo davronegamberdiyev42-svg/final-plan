@@ -1,0 +1,66 @@
+{
+  "release": "36.0.0",
+  "date": "2026-11-07",
+  "daily_mission_modules": 10,
+  "core_modules": [
+    "reading",
+    "listening",
+    "writing",
+    "speaking"
+  ],
+  "additional_labs": [
+    "collocations",
+    "pronunciation",
+    "paraphrase",
+    "grammar",
+    "vocabulary",
+    "fluency"
+  ],
+  "legacy_power_labs": {
+    "modules": 10,
+    "modes_per_module": 10,
+    "total_modes": 100
+  },
+  "audio": {
+    "count": 84,
+    "total_bytes": 57539664,
+    "ffmpeg_decode": "PASS",
+    "synthetic_practice_voice": true,
+    "official_ielts_audio": false
+  },
+  "vocabulary": {
+    "searchable_unique_first_10000": 10000,
+    "entries_with_us_uk_ipa_fields_first_10000": 10000,
+    "full_offline_bilingual_glosses_first_10000": 671,
+    "offline_verified_9000_definitions": false,
+    "on_demand_online_dictionary_lookup": true,
+    "machine_translation_labelled_provisional": true
+  },
+  "speaking": {
+    "live_browser_asr_where_supported": true,
+    "manual_transcript_fallback": true,
+    "transcript_export_txt": true,
+    "four_criterion_self_review": true,
+    "automatic_pronunciation_grade": false,
+    "mock_asr_callback_test": "PASS",
+    "real_android_microphone": "NOT TESTED"
+  },
+  "pwa": {
+    "manifest_standalone": true,
+    "service_worker_included": true,
+    "android_install_verified_on_device": false
+  },
+  "qa": {
+    "node_syntax": "PASS",
+    "logic_harness": "8/8 PASS",
+    "all_ten_mission_flows": "PASS",
+    "powerlab_navigation": "10x10 PASS",
+    "speaking_report_export": "PASS",
+    "asr_mock": "PASS",
+    "audio_decode": "84/84 PASS",
+    "mobile_390px_no_overflow": "PASS",
+    "github_pages_live": "NOT TESTED",
+    "android_microphone": "NOT TESTED",
+    "pwa_install_real_device": "NOT TESTED"
+  }
+}
