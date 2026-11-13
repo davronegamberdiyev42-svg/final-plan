@@ -1,0 +1,866 @@
+{
+  "release": "55.0.0-data-recovery",
+  "base_path": "/final-stage-/",
+  "passed": 107,
+  "failed": 0,
+  "total": 107,
+  "checks": [
+    {
+      "path": "",
+      "status": 200,
+      "content_type": "text/html",
+      "content_length": "1885",
+      "bytes_read": 1885,
+      "pass": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "content_type": "text/html",
+      "content_length": "1885",
+      "bytes_read": 1885,
+      "pass": true
+    },
+    {
+      "path": "standalone.html",
+      "status": 200,
+      "content_type": "text/html",
+      "content_length": "16542718",
+      "bytes_read": 16542718,
+      "pass": true
+    },
+    {
+      "path": "manifest.webmanifest",
+      "status": 200,
+      "content_type": "application/manifest+json",
+      "content_length": "1143",
+      "bytes_read": 1143,
+      "pass": true
+    },
+    {
+      "path": "sw.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "4492",
+      "bytes_read": 4492,
+      "pass": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "content_length": "297",
+      "bytes_read": 297,
+      "pass": true
+    },
+    {
+      "path": "assets/css/app-core.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "87921",
+      "bytes_read": 87921,
+      "pass": true
+    },
+    {
+      "path": "assets/css/stage40-50.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "14217",
+      "bytes_read": 14217,
+      "pass": true
+    },
+    {
+      "path": "assets/css/stage51.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "12207",
+      "bytes_read": 12207,
+      "pass": true
+    },
+    {
+      "path": "assets/js/core/contract.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "846",
+      "bytes_read": 846,
+      "pass": true
+    },
+    {
+      "path": "assets/js/core/module-registry.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "2268",
+      "bytes_read": 2268,
+      "pass": true
+    },
+    {
+      "path": "assets/js/core/boot.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "6371",
+      "bytes_read": 6371,
+      "pass": true
+    },
+    {
+      "path": "assets/js/compat/legacy-core.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "654328",
+      "bytes_read": 654328,
+      "pass": true
+    },
+    {
+      "path": "assets/js/modules/backup-manager.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "20095",
+      "bytes_read": 20095,
+      "pass": true
+    },
+    {
+      "path": "assets/js/modules/advanced-studio.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "69852",
+      "bytes_read": 69852,
+      "pass": true
+    },
+    {
+      "path": "assets/js/stage40-50.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "698",
+      "bytes_read": 698,
+      "pass": true
+    },
+    {
+      "path": "data/app-data.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "15201551",
+      "bytes_read": 15201551,
+      "pass": true
+    },
+    {
+      "path": "data/stage47-skill-resources.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "323007",
+      "bytes_read": 323007,
+      "pass": true
+    },
+    {
+      "path": "data/stage47-listening-companions.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "96981",
+      "bytes_read": 96981,
+      "pass": true
+    },
+    {
+      "path": "data/stage47-task1-datasets.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "81349",
+      "bytes_read": 81349,
+      "pass": true
+    },
+    {
+      "path": "data/stage48-vocabulary-coverage.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "975",
+      "bytes_read": 975,
+      "pass": true
+    },
+    {
+      "path": "icons/icon-192.png",
+      "status": 200,
+      "content_type": "image/png",
+      "content_length": "7582",
+      "bytes_read": 7582,
+      "pass": true
+    },
+    {
+      "path": "icons/icon-512-maskable.png",
+      "status": 200,
+      "content_type": "image/png",
+      "content_length": "12418",
+      "bytes_read": 12418,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-01.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "725420",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-02.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "679820",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-03.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "639020",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-04.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "705068",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-05.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "661772",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-06.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "645932",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-07.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "726572",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-08.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "688460",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-09.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "649100",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-10.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "684908",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-11.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "680204",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-12.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "672044",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-13.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "646700",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-14.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "730508",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-15.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "719372",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-16.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "685772",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-17.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "660524",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-18.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "663020",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-19.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "687212",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-20.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "636236",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-21.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "698060",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-22.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "719276",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-23.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "685388",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-24.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "665804",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-25.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "722828",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-26.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "682988",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-27.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "640940",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-28.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "697100",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-29.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "712460",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-30.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "669836",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-31.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "679148",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-32.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "688940",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-33.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "657068",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-34.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "663116",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-35.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "703340",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-36.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "707756",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-37.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "702668",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-38.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "675788",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-39.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "672428",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-40.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "677420",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-41.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "659180",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-42.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "717644",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-43.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "681932",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-44.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "673292",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-45.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "657740",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-46.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "700172",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-47.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "658124",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-48.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "626732",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-49.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "681644",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-50.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "734636",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-51.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "687212",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-52.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "664844",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-53.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "715052",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-54.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "660908",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-55.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "672716",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-56.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "702380",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-57.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "719756",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-58.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "681836",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-59.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "695660",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-60.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "702956",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-61.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "682892",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-62.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "686252",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-63.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "689900",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-64.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "769100",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-65.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "690092",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-66.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "652748",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-67.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "712940",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-68.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "654092",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-69.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "628076",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-70.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "729548",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-71.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "718028",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-72.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "664748",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-73.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "667148",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-74.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "732044",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-75.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "686348",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-76.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "638732",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-77.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "718412",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-78.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "710444",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-79.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "705164",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-80.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "668300",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-81.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "686444",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-82.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "702956",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-83.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "629420",
+      "bytes_read": 0,
+      "pass": true
+    },
+    {
+      "path": "audio/listening-day-84.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "711404",
+      "bytes_read": 0,
+      "pass": true
+    }
+  ],
+  "note": "Local static HTTP subpath simulation; not public GitHub Pages acceptance."
+}

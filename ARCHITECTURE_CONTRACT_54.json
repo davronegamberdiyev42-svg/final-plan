@@ -1,0 +1,60 @@
+{
+  "release": "54.0.0-modular",
+  "app_id": "IELTS-BOOST-84D-V1",
+  "module_contract": "1.0.0",
+  "entry": "index.html",
+  "data": {
+    "path": "data/app-data.json",
+    "sha256": "8d6d4ec218ac0be3fe68c8f96de5771529740ed690cc64d9090180f4160e2e84",
+    "bytes": 15201551,
+    "loading": "fetch + schema validation + SHA-256 when SubtleCrypto is available"
+  },
+  "modules": [
+    {
+      "id": "app-data",
+      "entry": "data/app-data.json",
+      "status": "externalized",
+      "responsibility": "84-day curriculum and learner content"
+    },
+    {
+      "id": "legacy-core",
+      "entry": "assets/js/compat/legacy-core.js",
+      "status": "compatibility-kernel",
+      "responsibility": "preserved Stage 52 lexical runtime; exposes read-only runtime contract"
+    },
+    {
+      "id": "advanced-studio",
+      "entry": "assets/js/modules/advanced-studio.js",
+      "status": "extracted-module",
+      "responsibility": "Stage 40–50 Advanced Studio and its own state namespace"
+    },
+    {
+      "id": "shell-styles",
+      "entry": "assets/css/app-core.css",
+      "status": "externalized",
+      "responsibility": "six original inline style blocks in original cascade order"
+    }
+  ],
+  "storage_contract": {
+    "main": "ielts-boost-rebuilt-1.0",
+    "main_legacy": "ielts-boost-state-v1",
+    "advanced_studio": "IELTSBoost_PlanA_Stage4050_v1",
+    "main_audio_indexeddb": "IELTSBoostMedia",
+    "studio_audio_indexeddb": "IELTSBoostPlanA_Audio_v1",
+    "migration_policy": "Stage 54 does not rename, merge, reset, or rewrite any existing storage namespace."
+  },
+  "offline": {
+    "shell_cache": "ielts-boost-final-stage-54-shell-v1",
+    "audio_cache": "ielts-boost-final-stage-audio",
+    "data_precached": true,
+    "audio_precached": false
+  },
+  "compatibility": {
+    "standalone_html": "preserved byte-for-byte from Stage 52; keep audio/ folder beside file",
+    "legacy_script_alias": "assets/js/stage40-50.js forwards to modules/advanced-studio.js"
+  },
+  "limits": [
+    "Legacy core internals remain tightly coupled; Stage 54 establishes a stable API but does not claim a full domain-by-domain split of 648 KB core.",
+    "Public GitHub Pages and physical Android still require device-side acceptance."
+  ]
+}

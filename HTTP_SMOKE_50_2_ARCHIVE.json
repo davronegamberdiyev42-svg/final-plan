@@ -1,0 +1,87 @@
+{
+  "base_path": "/plan-a-/",
+  "pass": 16,
+  "total": 16,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "length": "15925004"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "length": "15925004"
+    },
+    {
+      "path": "standalone.html",
+      "status": 200,
+      "length": "16512364"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "status": 200,
+      "length": "916"
+    },
+    {
+      "path": "sw.js",
+      "status": 200,
+      "length": "4077"
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "length": "297"
+    },
+    {
+      "path": "assets/css/stage40-50.css",
+      "status": 200,
+      "length": "14217"
+    },
+    {
+      "path": "assets/js/stage40-50.js",
+      "status": 200,
+      "length": "70732"
+    },
+    {
+      "path": "data/stage47-skill-resources.json",
+      "status": 200,
+      "length": "323007"
+    },
+    {
+      "path": "data/stage47-listening-companions.json",
+      "status": 200,
+      "length": "96981"
+    },
+    {
+      "path": "data/stage47-task1-datasets.json",
+      "status": 200,
+      "length": "81349"
+    },
+    {
+      "path": "data/stage48-vocabulary-coverage.json",
+      "status": 200,
+      "length": "975"
+    },
+    {
+      "path": "icons/icon-192.png",
+      "status": 200,
+      "length": "1150"
+    },
+    {
+      "path": "icons/icon-512.png",
+      "status": 200,
+      "length": "3261"
+    },
+    {
+      "path": "audio/listening-day-01.mp3",
+      "status": 200,
+      "length": "725420"
+    },
+    {
+      "path": "audio/listening-day-84.mp3",
+      "status": 200,
+      "length": "711404"
+    }
+  ]
+}

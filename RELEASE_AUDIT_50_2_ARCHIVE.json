@@ -1,0 +1,24 @@
+{
+  "release": "50.2.0-plan-a",
+  "target_repository": "plan-a-",
+  "primary_entry": "index.html",
+  "static_audit": {
+    "passed": 47,
+    "total": 47,
+    "failures": []
+  },
+  "http_subpath_smoke": {
+    "base_path": "/plan-a-/",
+    "passed": 16,
+    "total": 16,
+    "failures": []
+  },
+  "audio_decode": "84/84 FFmpeg decode PASS",
+  "scope_note": "Feature-level reconstructed integration from preserved baseline, audits and data. Not a byte-for-byte Stage 40-50 historical source restoration.",
+  "unverified": [
+    "Chromium UI E2E blocked by ERR_BLOCKED_BY_ADMINISTRATOR",
+    "Physical Samsung/Android microphone and native PWA install",
+    "Public GitHub Pages production/offline acceptance",
+    "External provider API live CORS/quota acceptance"
+  ]
+}

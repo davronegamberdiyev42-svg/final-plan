@@ -1,0 +1,5 @@
+﻿Module ID,Entry,Responsibility,Change type,Storage boundary
+app-data,data/app-data.json,"84-day plan, core questions, vocabulary, patterns, articles",preserved/external data,No learner data write
+legacy-core,assets/js/compat/legacy-core.js,Stage52 main progress; current and previous profile migration,compatibility kernel + storage snapshot API,Main localStorage and legacy key
+backup-manager,assets/js/modules/backup-manager.js,Full backup export/import/reset across all user namespaces,new Stage55 module,"Main, legacy, Studio localStorage + 2 IndexedDB databases"
+advanced-studio,assets/js/modules/advanced-studio.js,Stage40-50 learning studio and its live state,preserved feature module + read-only snapshot hook,Studio localStorage + Studio audio IndexedDB

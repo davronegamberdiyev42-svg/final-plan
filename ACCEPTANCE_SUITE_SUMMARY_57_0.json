@@ -1,0 +1,62 @@
+{
+  "release": "57.0.0-final-release",
+  "target_repository": "final-plan",
+  "github_pages_base_path": "/final-plan/",
+  "suites": {
+    "STATIC_QA_57_0.json": {
+      "passed": 74,
+      "failed": 0,
+      "total": 74,
+      "skipped": 0,
+      "notTested": 0
+    },
+    "HTTP_SMOKE_57_0.json": {
+      "passed": 112,
+      "failed": 0,
+      "total": 112,
+      "skipped": 0,
+      "notTested": 0
+    },
+    "BROWSER_RUNTIME_57_0.json": {
+      "passed": 65,
+      "failed": 0,
+      "total": 65,
+      "skipped": 2,
+      "notTested": 0
+    },
+    "SERVICE_WORKER_SIM_57_0.json": {
+      "passed": 11,
+      "failed": 0,
+      "total": 11,
+      "skipped": 0,
+      "notTested": 0
+    },
+    "ARCHITECTURE_CONTRACT_TESTS_57_0.json": {
+      "passed": 8,
+      "failed": 0,
+      "total": 8,
+      "skipped": 0,
+      "notTested": 0
+    },
+    "BACKUP_MANAGER_TESTS_57_0.json": {
+      "passed": 14,
+      "failed": 0,
+      "total": 14,
+      "skipped": 0,
+      "notTested": 0
+    },
+    "RELEASE_CHECK_HARNESS_57_0.json": {
+      "passed": 22,
+      "failed": 0,
+      "total": 23,
+      "skipped": 0,
+      "notTested": 1
+    }
+  },
+  "totals": {
+    "passed": 306,
+    "failed": 0,
+    "skipped": 2,
+    "notTested": 1
+  }
+}

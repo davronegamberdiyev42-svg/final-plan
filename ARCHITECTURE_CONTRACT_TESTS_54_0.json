@@ -1,0 +1,41 @@
+{
+  "release": "54.0.0-modular",
+  "passed": 7,
+  "failed": 1,
+  "total": 8,
+  "checks": [
+    {
+      "id": "contract-release-and-version",
+      "pass": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '56.0.0-performance-accessibility'\n- '54.0.0-modular'\n"
+    },
+    {
+      "id": "storage-namespace-non-destructive",
+      "pass": true
+    },
+    {
+      "id": "content-coverage-contract",
+      "pass": true
+    },
+    {
+      "id": "module-register-and-ready-dependencies",
+      "pass": true
+    },
+    {
+      "id": "duplicate-module-rejected",
+      "pass": true
+    },
+    {
+      "id": "invalid-module-identifiers-and-status-rejected",
+      "pass": true
+    },
+    {
+      "id": "registry-snapshot-is-immutable",
+      "pass": true
+    },
+    {
+      "id": "module-failure-is-reported",
+      "pass": true
+    }
+  ]
+}

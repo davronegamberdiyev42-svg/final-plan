@@ -1,0 +1,32 @@
+{
+  "release": "56.0.0-performance-accessibility",
+  "base_release": "55.0.0-data-recovery",
+  "base_archive": "IELTS_Boost_Stage55_Full_Device_Recovery.zip",
+  "base_archive_sha256": "c2849db7a11dc35c05ca1ba6b5a279fd60f2269f16b0ff362d2b4119a883245a",
+  "source_tree": "/mnt/data/stage56_work/base (working copy extracted from Stage 55 release)",
+  "changes": [
+    "Initial curriculum payload split: retain 672 daily core words in app-data.json and move full 19K index to data/vocabulary-index.json",
+    "Demand-load full word index on Vocabulary Lab entry and vocabulary-only Game Arena actions",
+    "Verify vocabulary index schema/count/IDs/core membership and SHA-256 in secure browser contexts",
+    "Add on-demand Service Worker cache for vocabulary index; exclude it from shell precache",
+    "Improve dynamic control names, navigation current-page state, skip link, focus visibility, reduced motion and forced-colors presentation",
+    "Debounce vocabulary search and bound normalization memoization"
+  ],
+  "payload_sizes_bytes": {
+    "stage55_app_data": 15201551,
+    "stage56_app_data": 5938780,
+    "stage56_vocabulary_index": 9627303,
+    "app_data_reduction_percent": 60.93,
+    "app_data_reduction_bytes": 9262771,
+    "core_daily_words": 672,
+    "full_vocabulary_words": 19000
+  },
+  "sha256": {
+    "app_data_json": "0a953569367a2d0d25218da6786c95a6620a209a23687f36ad4e1f38324a85cc",
+    "vocabulary_index_json": "93ede67d828ea7922e45365fd8f5821eea2356053ba7c998a478d88089497051",
+    "standalone_html": "1527dccc51e2fec26ea2b30e711000b69236e4d3f28cf7c907ee7929b37c4425",
+    "stage55_rollback_archive": "c2849db7a11dc35c05ca1ba6b5a279fd60f2269f16b0ff362d2b4119a883245a"
+  },
+  "standalone_html_unchanged": true,
+  "scope_note": "No Stage 57 production deployment, public HTTPS acceptance, physical Android, microphone, ASR or real Service Worker cold-start is claimed in this release."
+}

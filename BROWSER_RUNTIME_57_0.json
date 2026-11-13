@@ -1,0 +1,354 @@
+{
+  "release": "57.0.0-final-release",
+  "origin": "Chromium DOM harness; exact Stage 57 asset bytes are request-routed, browser storage APIs use isolated test doubles, origin is opaque about:blank.",
+  "passed": 65,
+  "failed": 0,
+  "total": 65,
+  "skipped": 2,
+  "tests": [
+    {
+      "id": "BOOT_DATA_HASH_AND_MODULES",
+      "pass": true,
+      "detail": "{'boot': {'release': '57.0.0', 'ready': True, 'dataDigest': 'unavailable', 'dataBytes': 5938780, 'vocabularyIndex': 'lazy', 'vocabularyExpected': 19000}, 'modules': [{'id': 'app-data', 'version': '57.0.0', 'description': '84 kunlik curriculum va 672 daily core vocabulary', 'dependencies': [], 'status': 'ready', 'startedAt': '2026-11-12T15:39:46.047Z', 'finishedAt': '2026-11-12T15:39:47.106Z', 'error': None}, {'id': 'legacy-core', 'version': '52.0.0-compat', 'description': 'Stage 52 verified comp"
+    },
+    {
+      "id": "VOCABULARY_IS_LAZY_ON_BOOT",
+      "pass": true,
+      "detail": "{'status': {'loaded': False, 'count': 672, 'expected': 19000, 'digestVerified': False}, 'module': {'id': 'vocabulary-index', 'version': '57.0.0', 'description': '19K full vocabulary index; demand-loaded on Vocabulary Lab entry', 'dependencies': ['legacy-core'], 'status': 'registered', 'startedAt': None, 'finishedAt': None, 'error': None}, 'hasInput': False}"
+    },
+    {
+      "id": "CORE_CONTRACT",
+      "pass": true,
+      "detail": "{'page': 'dashboard', 'day': 1, 'completedDays': 0, 'scoreRecords': 0, 'errorCount': 0, 'storagePersistent': True, 'storageKey': 'ielts-boost-rebuilt-1.0'}"
+    },
+    {
+      "id": "NO_BOOT_ERROR",
+      "pass": true,
+      "detail": "boot error component absent"
+    },
+    {
+      "id": "BACKUP_MANAGER_BOOTED",
+      "pass": true,
+      "detail": "versioned full-device backup API"
+    },
+    {
+      "id": "PATTERNS_KEEP_VOCAB_LAZY",
+      "pass": true,
+      "detail": "{'loaded': False, 'count': 672, 'expected': 19000, 'digestVerified': False}"
+    },
+    {
+      "id": "TEN_CENTRES",
+      "pass": true,
+      "detail": "['dashboard', 'plan', 'practice', 'games', 'language', 'errors', 'mock', 'mastery', 'library', 'settings']"
+    },
+    {
+      "id": "NAV-dashboard",
+      "pass": true,
+      "detail": "body=3624; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-dashboard",
+      "pass": true,
+      "detail": "{'visibleControls': 0, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "NAV-plan",
+      "pass": true,
+      "detail": "body=4579; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-plan",
+      "pass": true,
+      "detail": "{'visibleControls': 0, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "NAV-practice",
+      "pass": true,
+      "detail": "body=16919; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-practice",
+      "pass": true,
+      "detail": "{'visibleControls': 63, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "NAV-games",
+      "pass": true,
+      "detail": "body=11500; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-games",
+      "pass": true,
+      "detail": "{'visibleControls': 12, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "VOCABULARY_LAZY_LOAD_19K",
+      "pass": true,
+      "detail": "{'status': {'loaded': True, 'count': 19000, 'expected': 19000, 'digestVerified': False}, 'module': {'id': 'vocabulary-index', 'version': '57.0.0', 'description': '19K full vocabulary index; demand-loaded on Vocabulary Lab entry', 'dependencies': ['legacy-core'], 'status': 'ready', 'startedAt': '2026-11-12T15:39:49.533Z', 'finishedAt': '2026-11-12T15:39:51.556Z', 'error': None}}"
+    },
+    {
+      "id": "NAV-language",
+      "pass": true,
+      "detail": "body=7878; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-language",
+      "pass": true,
+      "detail": "{'visibleControls': 19, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "NAV-errors",
+      "pass": true,
+      "detail": "body=926; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-errors",
+      "pass": true,
+      "detail": "{'visibleControls': 5, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "NAV-mock",
+      "pass": true,
+      "detail": "body=2777; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-mock",
+      "pass": true,
+      "detail": "{'visibleControls': 5, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "NAV-mastery",
+      "pass": true,
+      "detail": "body=798; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-mastery",
+      "pass": true,
+      "detail": "{'visibleControls': 0, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "NAV-library",
+      "pass": true,
+      "detail": "body=6183; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-library",
+      "pass": true,
+      "detail": "{'visibleControls': 0, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "NAV-settings",
+      "pass": true,
+      "detail": "body=3130; active=s51-nav-item active"
+    },
+    {
+      "id": "A11Y-NAMES-settings",
+      "pass": true,
+      "detail": "{'visibleControls': 0, 'missing': [], 'unnamedButtons': 0}"
+    },
+    {
+      "id": "SKILL-reading",
+      "pass": true,
+      "detail": "16919 chars"
+    },
+    {
+      "id": "SKILL-writing",
+      "pass": true,
+      "detail": "14227 chars"
+    },
+    {
+      "id": "SKILL-listening",
+      "pass": true,
+      "detail": "11908 chars"
+    },
+    {
+      "id": "SKILL-speaking",
+      "pass": true,
+      "detail": "11841 chars"
+    },
+    {
+      "id": "READING-SUBMIT",
+      "pass": true,
+      "detail": "q=10; submitted=True"
+    },
+    {
+      "id": "READING-ERROR-TRANSFER",
+      "pass": true,
+      "detail": "errors=7"
+    },
+    {
+      "id": "WRITING-DRAFT-SAVE",
+      "pass": true,
+      "detail": "key=writing:1:task2; draft_keys=['writing:1:task2']"
+    },
+    {
+      "id": "WRITING-VERSION-UI",
+      "pass": true,
+      "detail": "version history UI present"
+    },
+    {
+      "id": "LISTENING-PLAYER-AND-ANSWER",
+      "pass": true,
+      "detail": "src=./audio/listening-day-01.mp3; q=5; saved=['0']"
+    },
+    {
+      "id": "SPEAKING-MANUAL-FALLBACK",
+      "pass": true,
+      "detail": "fields=17; saved_fields=['part1_0']; actions=32"
+    },
+    {
+      "id": "GAME-ARENA-HUB",
+      "pass": true,
+      "detail": "STAGE 36 · ADAPTIVE GAME ENGINE\nTrain with evidence. Improve with feedback.\n\nTo‘rtta IELTS skill studiyasi va oltita til laboratoriyasi bir xil kundalik material bilan ishlaydi. Har bir urinish dalil, natija va keyingi q"
+    },
+    {
+      "id": "POWER-LABS-CONTENT",
+      "pass": true,
+      "detail": "chars=11500"
+    },
+    {
+      "id": "TIL-LAB-PATTERNS",
+      "pass": true,
+      "detail": "pattern panel"
+    },
+    {
+      "id": "TIL-LAB-VOCAB",
+      "pass": true,
+      "detail": "vocabulary panel"
+    },
+    {
+      "id": "RESOURCE-LIBRARY",
+      "pass": true,
+      "detail": "library center rendered"
+    },
+    {
+      "id": "VOCABULARY_19K_SEARCH",
+      "pass": true,
+      "detail": "{'result': '#3 · NOUN\\ndrowsiness\\nGloss ready\\nUS dɹˈa\\u200dʊsɪnəs · UK dɹˈa\\u200dʊsinəs\\n\\nDefinition: the feeling of being sleepy and slow\\n\\nO‘zbekcha: uyquchanlik, mudroqlik\\n\\nContext: during a spell of da', 'count': '1 shown · 1 matches · all'}"
+    },
+    {
+      "id": "MOCK-STUDIO-RENDER",
+      "pass": true,
+      "detail": "MOCK EXAM STUDIO\nFull mock · Answer sheets · Adaptive review\n\nBarron’s Practice Exams asosida; official IELTS format, user-held material, human review va AI-ready feedback birlashtirildi.\n\nEvidence fi"
+    },
+    {
+      "id": "MOCK-CREATE-PERSISTENCE",
+      "pass": true,
+      "detail": "attempts=1; active=S31-1794497999988-yttt6; tab=attempt"
+    },
+    {
+      "id": "MOCK-SAVE-EXIT",
+      "pass": true,
+      "detail": "tab=overview; attempts=1"
+    },
+    {
+      "id": "MASTERY-RENDER",
+      "pass": true,
+      "detail": "mastery analytics rendered"
+    },
+    {
+      "id": "SETTINGS-ACTIONS",
+      "pass": true,
+      "detail": "4 action controls"
+    },
+    {
+      "id": "BACKUP-EXPORT",
+      "pass": true,
+      "detail": "IELTS_Boost_Full_Device_Backup_2026-11-12T15-40-00-288Z.ibbackup.json"
+    },
+    {
+      "id": "BACKUP-ENVELOPE-CONTENT",
+      "pass": true,
+      "detail": "{'format': 'IELTSBoost.FullDeviceBackup', 'schemaVersion': 1, 'totals': {'mainAudioRecords': 0, 'studioAudioRecords': 0, 'audioBytes': 0}}"
+    },
+    {
+      "id": "ADVANCED-STUDIO-LAUNCH",
+      "pass": true,
+      "detail": "panel=1"
+    },
+    {
+      "id": "ADVANCED-STUDIO-CLOSE",
+      "pass": true,
+      "detail": "studio closes back to main shell"
+    },
+    {
+      "id": "RESPONSIVE-320",
+      "pass": true,
+      "detail": "{'vw': 320, 'doc': 320, 'body': 320}"
+    },
+    {
+      "id": "RESPONSIVE-360",
+      "pass": true,
+      "detail": "{'vw': 360, 'doc': 360, 'body': 360}"
+    },
+    {
+      "id": "RESPONSIVE-390",
+      "pass": true,
+      "detail": "{'vw': 390, 'doc': 390, 'body': 390}"
+    },
+    {
+      "id": "RESPONSIVE-412",
+      "pass": true,
+      "detail": "{'vw': 412, 'doc': 412, 'body': 412}"
+    },
+    {
+      "id": "RESPONSIVE-768",
+      "pass": true,
+      "detail": "{'vw': 768, 'doc': 768, 'body': 768}"
+    },
+    {
+      "id": "RESPONSIVE-1024",
+      "pass": true,
+      "detail": "{'vw': 1024, 'doc': 1024, 'body': 1024}"
+    },
+    {
+      "id": "RESPONSIVE-1365",
+      "pass": true,
+      "detail": "{'vw': 1365, 'doc': 1365, 'body': 1365}"
+    },
+    {
+      "id": "SKIP_LINK_KEYBOARD_FOCUS",
+      "pass": true,
+      "detail": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "id": "REDUCED_MOTION",
+      "pass": true,
+      "detail": "1e-05s"
+    },
+    {
+      "id": "FORCED_COLORS_FOCUS",
+      "pass": true,
+      "detail": "{'outline': 'solid', 'width': '3px'}"
+    },
+    {
+      "id": "NO_PAGE_ERRORS",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "NO_CONSOLE_ERRORS",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "skipped_checks": [
+    {
+      "id": "SECURE_CONTEXT_AND_NATIVE_WEBCRYPTO",
+      "status": "NOT_TESTED",
+      "detail": "Browser harness origin is not secure: {'secure': False, 'subtle': False, 'origin': 'null'}; public HTTPS navigation is blocked by managed browser policy."
+    },
+    {
+      "id": "NATIVE_WEBCRYPTO_DIGEST_RUNTIME",
+      "status": "NOT_TESTED",
+      "detail": "Opaque DOM test origin does not expose native secure-context SubtleCrypto. Both asset hashes are independently verified by Stage 57 static QA; live HTTPS digest execution remains part of Stage 57."
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "limitations": [
+    "Native secure-context SubtleCrypto runtime digest was NOT tested because the managed browser blocks public HTTPS navigation and page.set_content uses an opaque origin. Both asset SHA-256 values were independently verified by Python static QA.",
+    "Physical Android, actual persistent browser storage, microphone permission and native speech recognition are not tested.",
+    "Service Worker lifecycle is tested separately with a Node Cache API simulation; it is not a real browser installation/offline cold-start test."
+  ]
+}

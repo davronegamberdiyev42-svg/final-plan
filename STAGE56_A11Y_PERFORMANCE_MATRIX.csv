@@ -1,0 +1,20 @@
+ID,Area,Requirement,Observed result,Status,Evidence
+A11Y-01,10 ta navigation center,Har bir markazda accessible labels/unnamed buttons,10 center tekshirildi; 0 unnamed button; visible controls 0 missing name,PASS,Chromium DOM harness
+A11Y-02,Keyboard skip link,Tab/focus orqali main contentga o‘tish,Skip link focusda ko‘rinadi,PASS,Chromium DOM harness
+A11Y-03,Focus visible,Klaviatura focus indikatori,Focus ring mavjud,PASS,Chromium DOM harness
+A11Y-04,Reduced motion,prefers-reduced-motion: reduce,Duration 0.00001s siyosati tasdiqlandi,PASS,Chromium emulate_media
+A11Y-05,Forced colors,forced-colors: active,3px solid focus outline,PASS,Chromium emulate_media
+UX-01,Responsive 320px,Horizontal overflow bo‘lmasligi,document/body width = viewport,PASS,Chromium DOM harness
+UX-02,Responsive 360px,Horizontal overflow bo‘lmasligi,document/body width = viewport,PASS,Chromium DOM harness
+UX-03,Responsive 390px,Horizontal overflow bo‘lmasligi,document/body width = viewport,PASS,Chromium DOM harness
+UX-04,Responsive 412px,Horizontal overflow bo‘lmasligi,document/body width = viewport,PASS,Chromium DOM harness
+UX-05,Responsive 768px,Horizontal overflow bo‘lmasligi,document/body width = viewport,PASS,Chromium DOM harness
+UX-06,Responsive 1024px,Horizontal overflow bo‘lmasligi,document/body width = viewport,PASS,Chromium DOM harness
+UX-07,Responsive 1365px,Horizontal overflow bo‘lmasligi,document/body width = viewport,PASS,Chromium DOM harness
+PERF-01,Initial app-data payload,Stage 55 ga nisbatan hajm,"15,201,551 → 5,938,780 bytes (-60.93%)",PASS,Exact file byte sizes
+PERF-02,19K vocabulary lazy-load,Birinchi bootda to‘liq index yo‘q,"672 core word bootda, 19,000 talab bo‘yicha yuklanadi",PASS,Chromium DOM harness + static audit
+PERF-03,Vocabulary search,Input debounce,"110 ms debounce, bounded memoization",PASS,Code/static audit
+PERF-04,Vocabulary cache,On-demand SW cache,"Install precache’dan chiqarilgan, talab bo‘yicha cache",PASS,Node SW Cache API simulation
+PERF-05,Native HTTPS digest,Native secure context SubtleCrypto,Public HTTPS browser navigation bloklangan,NOT TESTED,Stage 57 acceptance
+PERF-06,Android physical device,Haqiqiy Android Chrome,Qurilma mavjud bo‘lmagan,NOT TESTED,Stage 57 acceptance
+PERF-07,Wall-clock performance,FCP/LCP/startup timings,Haqiqiy HTTPS browser profiling yo‘q,NOT TESTED,Stage 57 acceptance

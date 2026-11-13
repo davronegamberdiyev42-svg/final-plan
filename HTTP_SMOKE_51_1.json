@@ -1,0 +1,106 @@
+{
+  "release": "51.1.0-final-stage",
+  "base_path": "/final-stage-/",
+  "passed": 16,
+  "total": 16,
+  "failures": [],
+  "checks": [
+    {
+      "path": "/final-stage-/",
+      "status": 200,
+      "content_type": "text/html",
+      "content_length": "15939484"
+    },
+    {
+      "path": "/final-stage-/index.html",
+      "status": 200,
+      "content_type": "text/html",
+      "content_length": "15939484"
+    },
+    {
+      "path": "/final-stage-/standalone.html",
+      "status": 200,
+      "content_type": "text/html",
+      "content_length": "16538345"
+    },
+    {
+      "path": "/final-stage-/manifest.webmanifest",
+      "status": 200,
+      "content_type": "application/manifest+json",
+      "content_length": "1132"
+    },
+    {
+      "path": "/final-stage-/sw.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "4218"
+    },
+    {
+      "path": "/final-stage-/favicon.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "content_length": "297"
+    },
+    {
+      "path": "/final-stage-/assets/css/stage40-50.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "14217"
+    },
+    {
+      "path": "/final-stage-/assets/css/stage51.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "11945"
+    },
+    {
+      "path": "/final-stage-/assets/js/stage40-50.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "content_length": "70326"
+    },
+    {
+      "path": "/final-stage-/data/stage47-skill-resources.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "323007"
+    },
+    {
+      "path": "/final-stage-/data/stage47-listening-companions.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "96981"
+    },
+    {
+      "path": "/final-stage-/data/stage47-task1-datasets.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "81349"
+    },
+    {
+      "path": "/final-stage-/data/stage48-vocabulary-coverage.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "975"
+    },
+    {
+      "path": "/final-stage-/icons/icon-192.png",
+      "status": 200,
+      "content_type": "image/png",
+      "content_length": "7582"
+    },
+    {
+      "path": "/final-stage-/icons/icon-512-maskable.png",
+      "status": 200,
+      "content_type": "image/png",
+      "content_length": "12418"
+    },
+    {
+      "path": "/final-stage-/audio/listening-day-84.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "711404"
+    }
+  ],
+  "note": "Local subpath static-host simulation, not a public GitHub Pages deployment test."
+}

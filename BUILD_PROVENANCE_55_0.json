@@ -1,0 +1,41 @@
+{
+  "release": "55.0.0-data-recovery",
+  "build_timestamp_local": "2026-11-11",
+  "primary_entry": "index.html",
+  "github_pages_base_path": "/final-stage-/",
+  "source_archives": [
+    {
+      "stage": "52 rollback source",
+      "file": "IELTS_Boost_Final_Stage_52_final-stage_.zip",
+      "sha256": "cf9d9e3bb184eb930a7296918bccebb2ce940e1598bbd43f4d32d4a5b9c207f7",
+      "mutated": false
+    },
+    {
+      "stage": "54 working base",
+      "file": "IELTS_Boost_Stage54_Modular_Architecture.zip",
+      "sha256": "db4d94364e48c871bab628dbebc73627fc1681773ddaf7d185c49bc04c0ec922",
+      "mutated": false
+    }
+  ],
+  "preservation": {
+    "standalone_html_sha256": "1527dccc51e2fec26ea2b30e711000b69236e4d3f28cf7c907ee7929b37c4425",
+    "stage52_standalone_sha256": "1527dccc51e2fec26ea2b30e711000b69236e4d3f28cf7c907ee7929b37c4425",
+    "standalone_byte_identical_to_stage52": true,
+    "app_data_bytes": 15201551,
+    "app_data_sha256": "8d6d4ec218ac0be3fe68c8f96de5771529740ed690cc64d9090180f4160e2e84",
+    "audio_mp3_count": 84,
+    "audio_directory_total_bytes": 57539664
+  },
+  "changes": [
+    "Added versioned full-device backup manager",
+    "Captures three local state namespaces and two IndexedDB Blob stores",
+    "Adds import validation, storage-persistence guard, confirmation and best-effort rollback",
+    "Adds coordinated reset across the three state keys and two media stores",
+    "Bumped boot and Service Worker shell release to 55.0"
+  ],
+  "known_limits": [
+    "Browser LocalStorage and two IndexedDB databases cannot share one global ACID transaction; rollback is best-effort.",
+    "standalone.html remains a Stage 52 legacy fallback and does not include the Stage 55 full-device backup UI.",
+    "Public HTTPS GitHub Pages and physical Android acceptance not performed."
+  ]
+}

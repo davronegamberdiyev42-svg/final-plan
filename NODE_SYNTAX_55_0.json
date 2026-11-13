@@ -1,0 +1,74 @@
+{
+  "release": "55.0.0-data-recovery",
+  "passed": 13,
+  "failed": 0,
+  "total": 13,
+  "checks": [
+    {
+      "path": "assets/js/compat/legacy-core.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "assets/js/core/boot.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "assets/js/core/contract.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "assets/js/core/module-registry.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "assets/js/modules/advanced-studio.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "assets/js/modules/backup-manager.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "assets/js/stage40-50.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "sw.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "tests/run_architecture_contract_54.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "tests/run_backup_manager_tests_55.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "tests/run_service_worker_sim_54.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "tests/run_service_worker_sim_55.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "path": "sw.js",
+      "pass": true,
+      "stderr": ""
+    }
+  ],
+  "method": "node --check per JavaScript source file and Service Worker"
+}

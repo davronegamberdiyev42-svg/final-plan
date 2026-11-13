@@ -1,0 +1,28 @@
+{
+  "stage": 48,
+  "version": "48.0.0",
+  "total_indexed": 19000,
+  "unique_ids": 19000,
+  "unique_normalised_terms": 19000,
+  "complete_offline_glossary": 677,
+  "daily_core": {
+    "days": 84,
+    "items": 672,
+    "distinct_items": 672,
+    "complete": 672,
+    "dual_ipa": 672
+  },
+  "us_ipa_fields": 15678,
+  "uk_ipa_fields": 11678,
+  "dual_ipa_fields": 11678,
+  "pos_fields": 4541,
+  "pronunciation_only_entries": 4000,
+  "cefr_estimated": 15000,
+  "cefr_not_assessed": 4000,
+  "missing_any_gloss_field": 18323,
+  "normalized_duplicates": 0,
+  "srs_algorithm": "SM-2-inspired local four-button scheduler; not canonical SM-2",
+  "search": "pre-normalized 19k cache, 24-result pagination, source-aware local cache merge",
+  "ipa_note": "Field presence is not proof of expert/audio verification. Only discrepancy daily-core IPA has Cambridge source URL stored in this build.",
+  "cefr_note": "B2/C1 tags are estimates; 4,000 pronunciation-only entries are not assessed."
+}

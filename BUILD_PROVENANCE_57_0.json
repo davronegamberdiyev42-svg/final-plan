@@ -1,0 +1,69 @@
+{
+  "release": "57.0.0-final-release",
+  "base_release": "56.0.0-performance-accessibility",
+  "base_archive": "IELTS_Boost_Stage56_UX_Accessibility_Performance.zip",
+  "base_archive_sha256": "ebfff27d1cf08894439ca737457d2abe1e0393d904dfba37a1c396ffe7b4c63e",
+  "target_repository": "final-plan",
+  "target_owner_lookup": "not checked for final-plan in this packaging pass",
+  "target_repository_lookup_status": "NOT_CHECKED; this package is prepared for the final-plan Pages path but was not uploaded or deployed",
+  "github_pages_base_path": "/final-plan/",
+  "zip_layout": "flat repository root; no enclosing top-level directory",
+  "primary_entry": "index.html",
+  "pwa": {
+    "manifest": "manifest.webmanifest",
+    "service_worker": "sw.js",
+    "manifest_id": "./",
+    "start_url": "./",
+    "scope": "./",
+    "service_worker_scope": "/final-plan/"
+  },
+  "changes": [
+    "Bumped all application-visible release identities to 57.0.0-final-release while retaining the proven Stage 56 learning runtime and Stage 55 data-recovery manager.",
+    "Created a Stage 57 Service Worker shell namespace; shared Stage 56 vocabulary-index cache and long-lived audio cache are preserved across activation.",
+    "Added release-check.html preflight utility that checks /final-plan/ base path, HTTPS, manifest/scope, asset availability, app-data SHA-256, 19K vocabulary SHA-256 and IDs, 84 MP3 endpoints, Range support, Service Worker and storage capabilities.",
+    "Added repository-root deployment instructions, release provenance, automated acceptance reports and physical-device acceptance checklist.",
+    "Kept the Stage 52 standalone fallback byte-identical; index.html is the primary Stage 57 app."
+  ],
+  "content_contract": {
+    "days": 84,
+    "skills_per_day": 4,
+    "reading_questions": 840,
+    "listening_questions": 420,
+    "daily_core_words": 672,
+    "full_vocabulary_words": 19000,
+    "sentence_patterns": 864,
+    "articles": 61,
+    "skill_resource_rows": 336,
+    "listening_companions": 84,
+    "task1_datasets": 84,
+    "mp3_files": 84
+  },
+  "asset_sha256": {
+    "app_data_json": "0a953569367a2d0d25218da6786c95a6620a209a23687f36ad4e1f38324a85cc",
+    "vocabulary_index_json": "93ede67d828ea7922e45365fd8f5821eea2356053ba7c998a478d88089497051",
+    "standalone_html_legacy_fallback": "1527dccc51e2fec26ea2b30e711000b69236e4d3f28cf7c907ee7929b37c4425",
+    "stage56_base_zip": "ebfff27d1cf08894439ca737457d2abe1e0393d904dfba37a1c396ffe7b4c63e"
+  },
+  "production_status": {
+    "static_and_local_automated_tests": "306 PASS; 0 FAIL; 2 browser SKIP; 1 physical-device NOT TESTED",
+    "chromium_dom_runtime": "65/65 PASS; 2 secure-origin checks not tested due managed browser policy",
+    "release_check_vm_harness": "22 PASS; 0 FAIL; 1 physical-device acceptance NOT TESTED",
+    "public_github_pages_deploy": "NOT PERFORMED",
+    "physical_android_pwa_install": "NOT TESTED",
+    "real_microphone_and_asr": "NOT TESTED",
+    "true_offline_cold_start": "NOT TESTED",
+    "audio_decode": "84/84 MP3 files decoded with FFmpeg; 0 errors"
+  },
+  "not_claimed": [
+    "No public GitHub Pages deployment is claimed.",
+    "No physical Android/Samsung device test is claimed.",
+    "No native HTTPS runtime WebCrypto result is claimed from this environment.",
+    "No real-world microphone permission or ASR test is claimed.",
+    "No actual offline cold-start is claimed.",
+    "No official IELTS band guarantee or WCAG certification is claimed."
+  ],
+  "target_repository_status_document": "docs/TARGET_REPOSITORY_STATUS_UZ.md",
+  "expected_pages_url": "https://<owner>.github.io/final-plan/ (unverified until deployment)",
+  "stage56_byte_identical_high_value_files": 95,
+  "parity_check": "all selected files compared byte-for-byte against Stage56 build tree; 0 differences"
+}

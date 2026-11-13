@@ -1,0 +1,79 @@
+{
+  "release": "54.0.0-modular",
+  "build_date": "2026-11-11",
+  "source_archive": {
+    "filename": "IELTS_Boost_Final_Stage_52_final-stage_.zip",
+    "sha256": "cf9d9e3bb184eb930a7296918bccebb2ce940e1598bbd43f4d32d4a5b9c207f7",
+    "crc_verified": true,
+    "entries": 155
+  },
+  "immutable_baseline": {
+    "extracted_directory": "/mnt/data/stage54_work/base",
+    "modified_by_stage54": false
+  },
+  "derived_assets": {
+    "index.html": {
+      "role": "small app shell",
+      "bytes": 1883,
+      "sha256": "26f93595021c20d1485d9b46ba5bf58966da87705a9e4a461848eca7c13ee4ba"
+    },
+    "data/app-data.json": {
+      "role": "exact extraction of Stage 52 inline JSON",
+      "bytes": 15201551,
+      "sha256": "8d6d4ec218ac0be3fe68c8f96de5771529740ed690cc64d9090180f4160e2e84",
+      "byte_identical_to_embedded_source": true
+    },
+    "assets/css/app-core.css": {
+      "role": "six Stage 52 inline CSS blocks in original order plus boot status styles",
+      "bytes": 87921,
+      "sha256": "51e77c48ec4191e2e4bef7569e95328ab962345262cc89fefab9b47d4a365bbf"
+    },
+    "assets/js/compat/legacy-core.js": {
+      "role": "Stage 52 inline runtime plus Stage 54 read-only public API bridge",
+      "bytes": 653820,
+      "sha256": "8507b94183a1fe23fdd8b3f65d9c4bc0adfbd55cf5ec31bf7dac17bc22dd8ea3"
+    },
+    "assets/js/modules/advanced-studio.js": {
+      "role": "Stage 40–50 extension moved without source changes",
+      "bytes": 70312,
+      "sha256": "2f50653adbe29e340cba3989d76f1d1331e8176d79039f58756bb138ce9c5c78",
+      "byte_identical_to_stage52_extension": true
+    },
+    "standalone.html": {
+      "role": "preserved Stage 52 standalone HTML; needs adjacent audio directory",
+      "bytes": 16542718,
+      "sha256": "1527dccc51e2fec26ea2b30e711000b69236e4d3f28cf7c907ee7929b37c4425",
+      "byte_identical_to_stage52": true
+    },
+    "sw.js": {
+      "role": "Stage 54 shell cache + preserved audio cache namespace",
+      "sha256": "028f124b2980ae3c2335cf241edf670088115e8e1784b3c43832f2765843b1e8"
+    }
+  },
+  "content_preservation": {
+    "plan_days": 84,
+    "core_days": 84,
+    "reading_questions": 840,
+    "listening_questions": 420,
+    "vocabulary_index_entries": 19000,
+    "sentence_patterns": 864,
+    "articles": 61,
+    "stage47_skill_resources": 336,
+    "stage47_listening_companions": 84,
+    "task1_datasets": 84,
+    "mp3_files": 84,
+    "mp3_byte_identical_to_stage52": true
+  },
+  "storage_namespaces_preserved": [
+    "ielts-boost-rebuilt-1.0",
+    "ielts-boost-state-v1",
+    "IELTSBoost_PlanA_Stage4050_v1",
+    "IELTSBoostMedia",
+    "IELTSBoostPlanA_Audio_v1"
+  ],
+  "release_policy": {
+    "stage52_archive_modified": false,
+    "public_github_pages_deployed_by_this_build": false,
+    "physical_android_acceptance_performed": false
+  }
+}

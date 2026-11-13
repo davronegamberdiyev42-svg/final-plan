@@ -1,0 +1,220 @@
+{
+  "release": "50.1.0-plan-a",
+  "base": "Stage36 full deploy source; Stage40 binary archive unavailable",
+  "checks": {
+    "plan_84_days": {
+      "pass": true,
+      "detail": "84"
+    },
+    "core_84_days": {
+      "pass": true,
+      "detail": "84"
+    },
+    "all_4_skills_daily": {
+      "pass": true,
+      "detail": "Reading/Listening/Writing/Speaking modules each day"
+    },
+    "reading_questions_840": {
+      "pass": true,
+      "detail": "840"
+    },
+    "listening_questions_420": {
+      "pass": true,
+      "detail": "420"
+    },
+    "speaking_prompts_588": {
+      "pass": true,
+      "detail": "{'reading': 840, 'listening': 420, 'speaking_part1': 252, 'speaking_part2': 84, 'speaking_part3': 252}"
+    },
+    "84_writing_task1_task2": {
+      "pass": true,
+      "detail": "both daily prompts on all 84 days"
+    },
+    "vocabulary_19k_unique": {
+      "pass": true,
+      "detail": "19000 records"
+    },
+    "vocabulary_daily_sets_84": {
+      "pass": true,
+      "detail": "84 sets"
+    },
+    "daily_core_672": {
+      "pass": true,
+      "detail": "672 ids; all resolve"
+    },
+    "articles_61": {
+      "pass": true,
+      "detail": "61"
+    },
+    "sentence_patterns_864": {
+      "pass": true,
+      "detail": "864"
+    },
+    "reading_source_packs_12": {
+      "pass": true,
+      "detail": "12"
+    },
+    "stage47_336_skill_resources": {
+      "pass": true,
+      "detail": "336 rows"
+    },
+    "stage47_4_skills_each_day": {
+      "pass": true,
+      "detail": "84 days x 4 unique skill records"
+    },
+    "stage47_listening_companions_84": {
+      "pass": true,
+      "detail": "84 rows"
+    },
+    "stage47_task1_datasets_84": {
+      "pass": true,
+      "detail": "84 rows"
+    },
+    "task1_six_families_14_each": {
+      "pass": true,
+      "detail": "{'line_graph': 14, 'bar_chart': 14, 'pie_chart': 14, 'table': 14, 'process': 14, 'map': 14}"
+    },
+    "stage48_coverage_19k_672": {
+      "pass": true,
+      "detail": "{\"indexed\": 19000, \"daily\": {\"days\": 84, \"items\": 672, \"distinct_items\": 672, \"complete\": 672, \"dual_ipa\": 672}}"
+    },
+    "audio_84_files": {
+      "pass": true,
+      "detail": "84 MP3, 57539664 bytes"
+    },
+    "pwa_manifest_valid": {
+      "pass": true,
+      "detail": "relative scope ./"
+    },
+    "nojekyll_present": {
+      "pass": true,
+      "detail": "root .nojekyll"
+    },
+    "service_worker_present": {
+      "pass": true,
+      "detail": "sw.js"
+    },
+    "module_css_js_present": {
+      "pass": true,
+      "detail": "stage40-50.css + stage40-50.js"
+    },
+    "stage_module_tabs_present": {
+      "pass": true,
+      "detail": "9 Studio tabs and view functions present"
+    },
+    "main_app_js_syntax": {
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    "stage4050_js_syntax": {
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    "service_worker_syntax": {
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    "json_stage47-task1-datasets.json": {
+      "pass": true,
+      "detail": "valid JSON"
+    },
+    "json_stage47-skill-resources.json": {
+      "pass": true,
+      "detail": "valid JSON"
+    },
+    "json_stage47-listening-companions.json": {
+      "pass": true,
+      "detail": "valid JSON"
+    },
+    "json_stage48-vocabulary-coverage.json": {
+      "pass": true,
+      "detail": "valid JSON"
+    },
+    "task1_renderers_84": {
+      "pass": true,
+      "detail": "{\n  \"passed\": true,\n  \"records\": 84,\n  \"families\": {\n    \"line_graph\": 14,\n    \"bar_chart\": 14,\n    \"pie_chart\": 14,\n    \"table\": 14,\n    \"process\": 14,\n    \"map\": 14\n  },\n  \"processExample\": true,\n  \"mapExample\": true\n}"
+    },
+    "standalone_embedded_payload": {
+      "pass": true,
+      "detail": "bytes=16495350; embedded pack=True"
+    },
+    "standalone_runtime_syntax_2": {
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    "standalone_runtime_syntax_3": {
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    "github_pages_subpath_http_smoke": {
+      "pass": true,
+      "detail": "16/16 GET 200"
+    },
+    "ffmpeg_audio_decode_84": {
+      "pass": true,
+      "detail": "84/84 decoded; error logs=0"
+    },
+    "file_./manifest.webmanifest": {
+      "pass": true,
+      "detail": "./manifest.webmanifest exists"
+    },
+    "file_./favicon.svg": {
+      "pass": true,
+      "detail": "./favicon.svg exists"
+    },
+    "file_./assets/css/stage40-50.css": {
+      "pass": true,
+      "detail": "./assets/css/stage40-50.css exists"
+    },
+    "file_./assets/js/stage40-50.js": {
+      "pass": true,
+      "detail": "./assets/js/stage40-50.js exists"
+    },
+    "file_./data/stage47-skill-resources.json": {
+      "pass": true,
+      "detail": "./data/stage47-skill-resources.json exists"
+    },
+    "file_./data/stage47-listening-companions.json": {
+      "pass": true,
+      "detail": "./data/stage47-listening-companions.json exists"
+    },
+    "file_./data/stage47-task1-datasets.json": {
+      "pass": true,
+      "detail": "./data/stage47-task1-datasets.json exists"
+    },
+    "file_./data/stage48-vocabulary-coverage.json": {
+      "pass": true,
+      "detail": "./data/stage48-vocabulary-coverage.json exists"
+    },
+    "file_./icons/icon-192.png": {
+      "pass": true,
+      "detail": "./icons/icon-192.png exists"
+    },
+    "file_./icons/icon-512.png": {
+      "pass": true,
+      "detail": "./icons/icon-512.png exists"
+    },
+    "file_./sw.js": {
+      "pass": true,
+      "detail": "./sw.js exists"
+    }
+  },
+  "summary": {
+    "passed": 49,
+    "total": 49,
+    "audio_count": 84,
+    "audio_bytes": 57539664,
+    "audio_decode_pass_count": 84,
+    "http_smoke_pass_count": 16,
+    "app_data_words": 19000,
+    "stage47_resources": 336,
+    "task1_data": 84,
+    "stage48_daily_core": 672,
+    "limitations": [
+      "Exact historical Stage40 source tree and Stage41–50 patch commits not available; integrated extension reconstructed from preserved reports/specs/data.",
+      "Browser-level UI automation was blocked by the execution environment; code syntax/data/static/HTTP checks are used (16/16 project-subpath GET checks pass).",
+      "Real Samsung A14 microphone, ASR, PWA install, hosted offline behavior and live third-party services not tested.",
+      "Practice index is not an official IELTS band and no 8–9 score is guaranteed."
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "release": "55.0.0-data-recovery",
+  "total": 14,
+  "passed": 14,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Full snapshot includes all three localStorage namespaces",
+      "status": "PASS"
+    },
+    {
+      "name": "Live in-memory Main state wins over stale storage value",
+      "status": "PASS"
+    },
+    {
+      "name": "Snapshot includes both IndexedDB audio stores and base64 payloads",
+      "status": "PASS"
+    },
+    {
+      "name": "Envelope validates and decoded audio sizes match bytes",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed backup rejected before any storage writes",
+      "status": "PASS"
+    },
+    {
+      "name": "Full restore overwrites progress and both audio databases",
+      "status": "PASS"
+    },
+    {
+      "name": "Recognized legacy Main JSON imports without deleting unrelated studio progress/audio",
+      "status": "PASS"
+    },
+    {
+      "name": "Restore cancellation leaves current progress and audio unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Recognized legacy Advanced Studio JSON imports without deleting Main progress",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid schema, duplicate audio key and oversized file are rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "Restore refuses volatile memory-only storage before modifying progress or audio",
+      "status": "PASS"
+    },
+    {
+      "name": "Cross-database failure triggers best-effort rollback of earlier database writes",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation preserves all keys and audio",
+      "status": "PASS"
+    },
+    {
+      "name": "Unified reset clears both progress namespaces, legacy key and both audio stores",
+      "status": "PASS"
+    }
+  ],
+  "method": "Node VM with deterministic localStorage and IndexedDB test doubles; includes binary audio blobs, migration, cancellation and simulated cross-store rollback."
+}

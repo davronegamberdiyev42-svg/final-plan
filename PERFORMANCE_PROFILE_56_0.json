@@ -1,0 +1,28 @@
+{
+  "release": "56.0.0-performance-accessibility",
+  "measurement_type": "artifact-size and functional-load-path measurements; not a wall-clock speed benchmark",
+  "bootstrap_app_data_bytes": 5938780,
+  "previous_app_data_bytes": 15201551,
+  "reduction_bytes": 9262771,
+  "reduction_percent": 60.93,
+  "full_vocabulary_index_bytes": 9627303,
+  "initially_loaded_vocabulary_words": 672,
+  "full_vocabulary_words_on_demand": 19000,
+  "lazy_load_trigger": "Vocabulary Lab entry; vocabulary-only games wait for the index to become ready",
+  "cache_policy": "Not included in service-worker install precache; cached after an on-demand successful fetch",
+  "search_debounce_ms": 110,
+  "responsive_widths_tested_px": [
+    320,
+    360,
+    390,
+    412,
+    768,
+    1024,
+    1365
+  ],
+  "limits": [
+    "No wall-clock benchmark claim.",
+    "No public GitHub Pages or physical Android result.",
+    "Native secure-context SubtleCrypto digest was skipped in the opaque-origin browser harness; Python static SHA-256 verification passed."
+  ]
+}

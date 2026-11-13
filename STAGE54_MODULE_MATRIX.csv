@@ -1,0 +1,14 @@
+module_id,entry,dependencies,responsibility,status_and_acceptance
+html-shell,index.html,contract.js → registry.js → boot.js,"Application frame, nav mounts, deferred boot",External shell; primary entry
+app-contract,assets/js/core/contract.js,none,"Release, content and persistent-storage identifiers",Frozen metadata contract
+module-registry,assets/js/core/module-registry.js,app-contract,"Module lifecycle, dependency assertions, immutable report",Registry unit-tested
+boot-loader,assets/js/core/boot.js,app-contract + module-registry,"Fetch data, verify digest on secure context, schema-check, sequentially load runtime",3 modules boot-tested
+curriculum-data,data/app-data.json,boot-loader,"84-day plan, 84 core days, vocabulary and practice library",Exact extracted JSON; SHA pinned
+compatibility-core,assets/js/compat/legacy-core.js,curriculum-data,Existing 10-centre application/runtime and integrated feature patch layers,Preserved compatibility kernel; not fully domain-split
+advanced-studio,assets/js/modules/advanced-studio.js,compatibility-core,Independent Stage 40–50 advanced studio runtime,Byte-identical move from Stage52
+legacy-studio-path,assets/js/stage40-50.js,advanced-studio,Backward-compatible loader alias for old script URL,Compatibility alias
+shell-styles,assets/css/app-core.css,html-shell,Six original inline style blocks in original cascade order,Externalized
+stage40-50-styles,assets/css/stage40-50.css,html-shell,Advanced Studio styles,Preserved
+stage51-styles,assets/css/stage51.css,html-shell,Stage 51 UI styles,Preserved
+service-worker,sw.js,shell + data + static assets,"Shell cache, cleanup, on-demand audio cache and byte-range MP3 handling",Node VM lifecycle simulation; not live HTTPS install
+standalone-fallback,standalone.html + audio/,none,Stage52 standalone fallback package,Byte-identical legacy standalone; audio folder required

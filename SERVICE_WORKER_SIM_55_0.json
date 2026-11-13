@@ -1,0 +1,54 @@
+{
+  "release": "55.0.0-data-recovery",
+  "simulation": "Node VM Service Worker lifecycle and Cache API model; not a real browser install",
+  "passed": 9,
+  "failed": 0,
+  "total": 9,
+  "results": [
+    {
+      "id": "install-shell-cache-created",
+      "pass": true,
+      "detail": "cached=23"
+    },
+    {
+      "id": "install-precaches-modular-runtime-and-data",
+      "pass": true,
+      "detail": "core, studio and 15 MB app-data shell assets included"
+    },
+    {
+      "id": "install-skip-waiting-requested",
+      "pass": true,
+      "detail": "calls=1"
+    },
+    {
+      "id": "activate-cleans-old-shell-preserves-audio",
+      "pass": true,
+      "detail": "deleted=ielts-boost-final-stage-54-shell-v1,ielts-boost-unrelated-old-cache"
+    },
+    {
+      "id": "activate-claims-clients",
+      "pass": true,
+      "detail": "calls=1"
+    },
+    {
+      "id": "audio-range-206-slice",
+      "pass": true,
+      "detail": "status=206; bytes=2,3,4"
+    },
+    {
+      "id": "audio-range-cached-as-full-response",
+      "pass": true,
+      "detail": "cached full MP3; entries=1"
+    },
+    {
+      "id": "audio-suffix-range-supported",
+      "pass": true,
+      "detail": "bytes=5,6,7"
+    },
+    {
+      "id": "audio-invalid-range-416",
+      "pass": true,
+      "detail": "status=416"
+    }
+  ]
+}

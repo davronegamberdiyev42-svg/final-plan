@@ -1,0 +1,58 @@
+{
+  "release": "56.0.0-performance-accessibility",
+  "status": "BUILD_READY_FOR_STAGE57_ACCEPTANCE",
+  "suites": {
+    "STATIC_QA_56_0": {
+      "passed": 65,
+      "failed": 0,
+      "total": 65,
+      "skipped": null
+    },
+    "HTTP_SMOKE_56_0": {
+      "passed": 109,
+      "failed": 0,
+      "total": 109,
+      "skipped": null
+    },
+    "BROWSER_RUNTIME_56_0": {
+      "passed": 65,
+      "failed": 0,
+      "total": 65,
+      "skipped": 2
+    },
+    "SERVICE_WORKER_SIM_56_0": {
+      "passed": 11,
+      "failed": 0,
+      "total": 11,
+      "skipped": null
+    },
+    "ARCHITECTURE_CONTRACT_TESTS_56_0": {
+      "passed": 8,
+      "failed": 0,
+      "total": 8,
+      "skipped": null
+    },
+    "BACKUP_MANAGER_TESTS_56_0": {
+      "passed": 14,
+      "failed": 0,
+      "total": 14,
+      "skipped": null
+    }
+  },
+  "open_acceptance": [
+    "public HTTPS Pages",
+    "native secure-context WebCrypto SHA-256 run",
+    "physical Android Chrome installability and persistent storage",
+    "real microphone permission and ASR",
+    "real SW offline cold-start",
+    "wall-clock performance profiling (FCP/LCP)",
+    "human screen-reader/WCAG audit"
+  ],
+  "preservation": {
+    "stage55_rollback_sha256": "c2849db7a11dc35c05ca1ba6b5a279fd60f2269f16b0ff362d2b4119a883245a",
+    "standalone_sha256": "1527dccc51e2fec26ea2b30e711000b69236e4d3f28cf7c907ee7929b37c4425",
+    "standalone_unchanged": true,
+    "full_vocabulary_entries": 19000,
+    "daily_core_words": 672
+  }
+}

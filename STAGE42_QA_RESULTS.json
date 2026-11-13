@@ -1,0 +1,126 @@
+{
+  "stage": 42,
+  "release": "42.0.0",
+  "date": "2026-11-08",
+  "passed": 22,
+  "total": 22,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "Embedded appData remains valid JSON",
+      "passed": true,
+      "detail": "parsed"
+    },
+    {
+      "name": "Stage 42 release marker present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Four transcript targets are explicitly scoped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Final recognition results are committed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Interim text is displayed but not saved as final",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Restart deduplication uses stable session base",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Recognition restart loop is bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No-speech loop is bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Manual and keyboard fallback controls exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Permission/network/unsupported errors are mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Final transcripts autosave through app state",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Manual edits stop conflicting live ASR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Speaking audio recording function is preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Existing general Speaking recording remains intact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Server STT limitation is disclosed in metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 42 UI status panel is present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Service worker cache is versioned for Stage 42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Existing app storage namespace is preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Main application JavaScript syntax",
+      "passed": true,
+      "detail": "node --check passed"
+    },
+    {
+      "name": "Service worker JavaScript syntax",
+      "passed": true,
+      "detail": "node --check passed"
+    },
+    {
+      "name": "Transcript helper unit tests",
+      "passed": true,
+      "detail": "8 pure helper assertions PASS"
+    },
+    {
+      "name": "Mocked recognition lifecycle (final commit, reconnect, stop, manual protection)",
+      "passed": true,
+      "detail": "Recognition lifecycle simulation PASS"
+    }
+  ],
+  "not_covered": [
+    "Real microphone permission and live speech-service availability",
+    "Physical Samsung Galaxy A14 Chrome / Samsung Internet acceptance",
+    "Server-side transcription of previously saved audio blobs"
+  ],
+  "note": "Mocked SpeechRecognition lifecycle tests are not evidence of real device speech-service support."
+}

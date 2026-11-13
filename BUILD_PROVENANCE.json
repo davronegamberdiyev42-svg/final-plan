@@ -1,0 +1,39 @@
+{
+  "release": "51.1.0-final-stage",
+  "target_repository": "final-stage-",
+  "base": "Preserved Stage 36 full deploy application and 84-day source data; original progress storage keys retained for compatibility.",
+  "audio_asset_source": "Preserved Stage 33.1 resource deploy bundle; all 84 MP3s included.",
+  "stage40_original_binary_available": false,
+  "stage40_sha256_record": "b906aa41a07acad20e8df373d18683b0dbc44b93ffee1afc8d4d887fad2651d1",
+  "stages_41_50": "Feature logic/UI reconstructed from preserved requirement traceability, stage master reports, QA results, roadmap and Stage 47/48 resource datasets. Original historical patch binaries/commits are unavailable.",
+  "stage51_two_phase": {
+    "phase_1": "Main navigation consolidated from legacy pages into exactly 10 student-facing learning centres; 84-day curriculum, all four skills, vocabulary, patterns, article library, daily resources, games, errors, mock exams, progress, privacy and backup remain available as hubs/subtabs.",
+    "phase_2": "Fresh light visual system, compact responsive navigation, Game Arena XP-to-next-level progress meter, install-state/help, manual Chrome fallback, branded maskable icons, project-relative PWA manifest/service worker and optional 84-MP3 offline caching. Browser install CTA is hidden until browser install eligibility is signalled; shell cache version bumped to invalidate older Stage 51 shell."
+  },
+  "top_3_priorities_from_chat_history": [
+    "Complete 84-day Academic journey with four skills daily, original task bank, audio, Task 1 visuals and integrated resources.",
+    "Evidence-led games and progress: 10 missions, XP/levels/achievements, scoring, error repair, retest and adaptive recommendations.",
+    "Simple student-first design: compact navigation, responsive UI, local-first progress, backup/privacy and app-like PWA install."
+  ],
+  "github_pages_base": "relative ./ paths; intended for repository final-stage- root at /final-stage-/.",
+  "score_disclaimer": "Internal learning practice index only, not official IELTS band; no 8.0 or 9.0 score outcome is guaranteed.",
+  "limitations": [
+    "Exact Stage 40 deploy ZIP is unavailable; only its SHA-256 checksum record is preserved.",
+    "All original historical Stage 41–50 patch binaries/commit history are not available; reconstructed integration is not byte-for-byte historical source restoration.",
+    "Browser UI automation is blocked by ERR_BLOCKED_BY_ADMINISTRATOR in the build environment.",
+    "Physical Android device microphone, native PWA installation and production hosted offline acceptance remain untested.",
+    "Standalone HTML keeps adjacent audio/ directory for MP3 playback; the indexed ZIP includes that audio folder.",
+    "Chrome install control is only displayed after browser signals install availability; manual Chrome menu instructions are always available in Settings."
+  ],
+  "validation_summary": {
+    "static_js_data_pwa_standalone": "61/61 PASS",
+    "game_xp_runtime_smoke": "PASS",
+    "offline_audio_cache_runtime_smoke": "84/84 requests PASS",
+    "mp3_ffmpeg_decode": "84/84 PASS",
+    "project_subpath_http_simulation": "16/16 HEAD 200 PASS",
+    "browser_ui_e2e": "NOT RUN: environment blocks browser navigation with ERR_BLOCKED_BY_ADMINISTRATOR",
+    "android_install_and_microphone": "NOT RUN: physical-device acceptance required",
+    "legacy_navigation_migration": "PASS: Reading/Writing/Listening/Speaking, Vocabulary/Patterns, Articles/Resources and Progress map to new centres without dropping subtab state."
+  },
+  "phase_2": null
+}

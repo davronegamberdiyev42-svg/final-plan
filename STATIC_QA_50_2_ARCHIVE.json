@@ -1,0 +1,249 @@
+{
+  "release": "50.2.0-plan-a",
+  "passed": 47,
+  "total": 47,
+  "failures": [],
+  "checks": [
+    {
+      "name": "main_app_data_json",
+      "pass": true,
+      "detail": "embedded appData parsed"
+    },
+    {
+      "name": "plan_84_days",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "core_84_days",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "4_skill_modules_each_day",
+      "pass": true,
+      "detail": "84 days × 4 core skills"
+    },
+    {
+      "name": "reading_question_count",
+      "pass": true,
+      "detail": "840"
+    },
+    {
+      "name": "listening_question_count",
+      "pass": true,
+      "detail": "420"
+    },
+    {
+      "name": "speaking_prompts",
+      "pass": true,
+      "detail": "P1=252; P2=84; P3=252"
+    },
+    {
+      "name": "writing_prompts",
+      "pass": true,
+      "detail": "Task 1 + Task 2 prompts all days"
+    },
+    {
+      "name": "articles_61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "name": "sentence_patterns_864",
+      "pass": true,
+      "detail": "864"
+    },
+    {
+      "name": "reading_packs_12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "name": "vocabulary_19k",
+      "pass": true,
+      "detail": "19000"
+    },
+    {
+      "name": "vocabulary_unique_terms",
+      "pass": true,
+      "detail": "19000"
+    },
+    {
+      "name": "daily_sets_84x8",
+      "pass": true,
+      "detail": "84 sets / 672 ids"
+    },
+    {
+      "name": "daily_core_672_unique",
+      "pass": true,
+      "detail": "672 ids, 672 unique, unresolved=0"
+    },
+    {
+      "name": "daily_core_dual_ipa",
+      "pass": true,
+      "detail": "US + UK IPA present for every daily core entry"
+    },
+    {
+      "name": "daily_core_full_gloss",
+      "pass": true,
+      "detail": "definition, Uzbek gloss, example and POS on 672 core"
+    },
+    {
+      "name": "stage47_skill_resources_336",
+      "pass": true,
+      "detail": "336"
+    },
+    {
+      "name": "stage47_4_skills_each_day",
+      "pass": true,
+      "detail": "84 × 4 unique skill names"
+    },
+    {
+      "name": "stage47_listening_companions_84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "stage47_task1_datasets_84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "task1_six_families_14_each",
+      "pass": true,
+      "detail": "{'line_graph': 14, 'bar_chart': 14, 'pie_chart': 14, 'table': 14, 'process': 14, 'map': 14}"
+    },
+    {
+      "name": "task1_day_coverage",
+      "pass": true,
+      "detail": "days 1..84 exactly"
+    },
+    {
+      "name": "task1_provenance_disclosed",
+      "pass": true,
+      "detail": "fictional practice datasets labelled"
+    },
+    {
+      "name": "daily_core_coverage_record",
+      "pass": true,
+      "detail": "{'days': 84, 'items': 672, 'distinct_items': 672, 'complete': 672, 'dual_ipa': 672}"
+    },
+    {
+      "name": "task1_data_structures_parse",
+      "pass": true,
+      "detail": "84/84; malformed=[]"
+    },
+    {
+      "name": "audio_84_assets",
+      "pass": true,
+      "detail": "57539664"
+    },
+    {
+      "name": "audio_day_sequence",
+      "pass": true,
+      "detail": "missing days "
+    },
+    {
+      "name": "ffmpeg_audio_decode_84",
+      "pass": true,
+      "detail": "84/84; failures=[]"
+    },
+    {
+      "name": "module_css_js_present",
+      "pass": true,
+      "detail": "css=14217; js=70732"
+    },
+    {
+      "name": "stage4050_js_syntax",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "service_worker_syntax",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "main_inline_js_syntax",
+      "pass": true,
+      "detail": "[(1, True, 'node --check PASS')]"
+    },
+    {
+      "name": "pwa_manifest_relative_scope",
+      "pass": true,
+      "detail": "./"
+    },
+    {
+      "name": "pwa_manifest_icons",
+      "pass": true,
+      "detail": "['./icons/icon-192.png', './icons/icon-512.png']"
+    },
+    {
+      "name": "all_runtime_assets_exist",
+      "pass": true,
+      "detail": "11 required assets exist"
+    },
+    {
+      "name": "no_old_repo_absolute_paths",
+      "pass": true,
+      "detail": "No hard-coded old repo base path"
+    },
+    {
+      "name": "stage4050_feature_hooks",
+      "pass": true,
+      "detail": "13 named feature hooks"
+    },
+    {
+      "name": "resource_skill_filter_case_insensitive",
+      "pass": true,
+      "detail": "case-normalized skill filter"
+    },
+    {
+      "name": "dialog_focus_management",
+      "pass": true,
+      "detail": "focus restoration and Tab trap"
+    },
+    {
+      "name": "reduced_motion_and_focus_css",
+      "pass": true,
+      "detail": "reduced motion and keyboard focus states"
+    },
+    {
+      "name": "standalone_embedded_data",
+      "pass": true,
+      "detail": "336 skills + 84 listening + 84 Task1"
+    },
+    {
+      "name": "standalone_inline_css_js",
+      "pass": true,
+      "detail": "embedded Final Studio CSS + JS"
+    },
+    {
+      "name": "standalone_module_js_syntax",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "standalone_title_present",
+      "pass": true,
+      "detail": "IELTS Boost — Plan A · Final Learning System · Release 50.2 · Standalone Companion"
+    },
+    {
+      "name": "plan_a_deploy_instructions",
+      "pass": true,
+      "detail": "repo root upload guidance"
+    },
+    {
+      "name": "limitations_disclosed",
+      "pass": true,
+      "detail": "source/score limitations disclosure"
+    }
+  ],
+  "limitations": [
+    "Browser UI automation is blocked in this environment (ERR_BLOCKED_BY_ADMINISTRATOR); no UI end-to-end PASS is claimed.",
+    "Real Android microphone / ASR / PWA install and production hosted offline behavior require a physical-device test.",
+    "Exact original Stage 40 source archive and all historical 41–50 patch commits are not available; final is an enhanced reconstruction from preserved baseline and records.",
+    "IELTS practice score is not an official IELTS band; 8–9 is not guaranteed."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "release": "57.0.0-final-release",
+  "simulation": "Node VM of release-check.js with HTTPS final-stage origin, actual app-data/vocabulary asset bytes and deterministic platform APIs; not a live public-host check",
+  "passed": 22,
+  "failed": 0,
+  "warn": 0,
+  "notTested": 1,
+  "total": 23,
+  "checks": [
+    {
+      "id": "Repository path",
+      "status": "PASS",
+      "detail": "Detected scope base: /final-plan/; expected suffix /final-plan/"
+    },
+    {
+      "id": "HTTPS secure context",
+      "status": "PASS",
+      "detail": "protocol=https:; secure=true"
+    },
+    {
+      "id": "Stage 57 contract",
+      "status": "PASS",
+      "detail": "contract release=57.0.0-final-release"
+    },
+    {
+      "id": "Manifest identity and scope",
+      "status": "PASS",
+      "detail": "id=./; scope=/final-plan/; start=/final-plan/"
+    },
+    {
+      "id": "Primary entry and release-check page",
+      "status": "PASS",
+      "detail": "index=200; sw=200; release-check=200"
+    },
+    {
+      "id": "PWA icon resources",
+      "status": "PASS",
+      "detail": "4 manifest icons checked"
+    },
+    {
+      "id": "Service Worker registration",
+      "status": "PASS",
+      "detail": "scope=https://learner.github.io/final-plan/; active=true; waiting=false; installing=false"
+    },
+    {
+      "id": "Service Worker control",
+      "status": "PASS",
+      "detail": "controller=https://learner.github.io/final-plan/sw.js"
+    },
+    {
+      "id": "Service Worker scope path",
+      "status": "PASS",
+      "detail": "https://learner.github.io/final-plan/"
+    },
+    {
+      "id": "LocalStorage write/read",
+      "status": "PASS",
+      "detail": "write/read/remove succeeded"
+    },
+    {
+      "id": "IndexedDB API",
+      "status": "PASS",
+      "detail": "available=true"
+    },
+    {
+      "id": "Storage estimate",
+      "status": "PASS",
+      "detail": "usage=5000000; quota=200000000"
+    },
+    {
+      "id": "Persistent storage",
+      "status": "PASS",
+      "detail": "persisted=true; no permission prompt was requested"
+    },
+    {
+      "id": "Media and ASR capability",
+      "status": "PASS",
+      "detail": "getUserMedia=true; MediaRecorder=true; SpeechRecognition=true. No microphone permission was requested."
+    },
+    {
+      "id": "App-data SHA-256",
+      "status": "PASS",
+      "detail": "expected=0a953569367a2d0d25218da6786c95a6620a209a23687f36ad4e1f38324a85cc; actual=0a953569367a2d0d25218da6786c95a6620a209a23687f36ad4e1f38324a85cc"
+    },
+    {
+      "id": "84-day curriculum data",
+      "status": "PASS",
+      "detail": "plan=84; core=84; dailyWords=672; patterns=864; articles=61"
+    },
+    {
+      "id": "19K vocabulary SHA-256",
+      "status": "PASS",
+      "detail": "expected=93ede67d828ea7922e45365fd8f5821eea2356053ba7c998a478d88089497051; actual=93ede67d828ea7922e45365fd8f5821eea2356053ba7c998a478d88089497051"
+    },
+    {
+      "id": "19,000 vocabulary schema/IDs",
+      "status": "PASS",
+      "detail": "count=19000; unique=19000; min=1; max=19000"
+    },
+    {
+      "id": "84 MP3 HTTP endpoints",
+      "status": "PASS",
+      "detail": "84/84 valid; "
+    },
+    {
+      "id": "MP3 Range request",
+      "status": "PASS",
+      "detail": "status=206; content-range=bytes 0-1/8; SW control=true"
+    },
+    {
+      "id": "CacheStorage release caches",
+      "status": "PASS",
+      "detail": "ielts-boost-final-plan-57-shell-v1, ielts-boost-final-stage-56-vocabulary-v1, ielts-boost-final-stage-audio"
+    },
+    {
+      "id": "Current diagnostic page paint",
+      "status": "PASS",
+      "detail": "FCP=not exposed; LCP=not exposed; diagnostics page only, not app benchmark"
+    },
+    {
+      "id": "Physical-device acceptance",
+      "status": "NOT TESTED",
+      "detail": "Android Chrome installation, actual persistent IndexedDB audio restore, microphone/ASR and offline cold-start require a physical device after deployment."
+    }
+  ]
+}

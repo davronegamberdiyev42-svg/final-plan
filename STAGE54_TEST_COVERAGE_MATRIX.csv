@@ -1,0 +1,10 @@
+suite,result,status,runner_or_environment,scope_and_limit
+Static integrity + content + syntax,56/56,PASS,tests/run_static_qa_54.py,"Local filesystem; exact SHA, counts, syntax, cache contract"
+HTTP subpath asset and MP3 availability,106/106,PASS,tests/run_http_smoke_54.py,Local static HTTP; 84 MP3 paths use HEAD; not public GitHub Pages
+Chromium DOM runtime journeys,40/40,PASS,tests/run_browser_acceptance_54.py,Exact release HTML/JS/CSS/data/audio routed to synthetic origin; localStorage API shim
+Module registry contract,8/8,PASS,tests/run_architecture_contract_54.js,Node VM unit tests
+Service Worker lifecycle + Range audio,9/9,PASS,tests/run_service_worker_sim_54.js,Node VM/Cache API simulation; not browser Service Worker installation
+Stage52 original baseline QA,68/68,PASS,tests/run_static_qa_52.py,Re-run against immutable Stage52 baseline
+Stage52 local HTTP baseline,16/16,PASS,tests/run_http_smoke_52.py,Re-run against immutable Stage52 baseline
+Public GitHub Pages HTTPS acceptance,not run,OPEN,external browser/device required,"Must verify digestState=verified, live deploy, SW registration, cold offline boot"
+Physical Android Chrome + mic/ASR,not run,OPEN,physical device required,"Install, microphone, MediaRecorder, Web Speech Recognition, offline restore"

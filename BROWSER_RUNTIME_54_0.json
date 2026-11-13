@@ -1,0 +1,216 @@
+{
+  "release": "54.0.0-modular",
+  "origin": "Chromium DOM with exact ZIP asset routing (opaque origin; not HTTPS acceptance)",
+  "passed": 40,
+  "failed": 0,
+  "total": 40,
+  "tests": [
+    {
+      "id": "BOOT_DATA_HASH_AND_MODULES",
+      "pass": true,
+      "detail": "{'boot': {'release': '54.0.0', 'ready': True, 'dataDigest': 'unavailable', 'dataBytes': 15201551}, 'modules': [{'id': 'app-data', 'version': '54.0.0', 'description': '84 kunlik curriculum va asosiy o‘quv ma’lumotlari', 'dependencies': [], 'status': 'ready', 'startedAt': '2026-11-11T17:59:21.627Z', 'finishedAt': '2026-11-11T17:59:25.279Z', 'error': None}, {'id': 'legacy-core', 'version': '52.0.0-compat', 'description': 'Stage 52 verified compatibility runtime', 'dependencies': ['app-data'], 'stat"
+    },
+    {
+      "id": "CORE_CONTRACT",
+      "pass": true,
+      "detail": "{'page': 'dashboard', 'day': 1, 'completedDays': 0, 'scoreRecords': 0, 'errorCount': 0, 'storagePersistent': True, 'storageKey': 'ielts-boost-rebuilt-1.0'}"
+    },
+    {
+      "id": "NO_BOOT_ERROR",
+      "pass": true,
+      "detail": "boot error component absent"
+    },
+    {
+      "id": "TEN_CENTRES",
+      "pass": true,
+      "detail": "['dashboard', 'plan', 'practice', 'games', 'language', 'errors', 'mock', 'mastery', 'library', 'settings']"
+    },
+    {
+      "id": "NAV-dashboard",
+      "pass": true,
+      "detail": "body=3624; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-plan",
+      "pass": true,
+      "detail": "body=4579; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-practice",
+      "pass": true,
+      "detail": "body=16919; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-games",
+      "pass": true,
+      "detail": "body=11502; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-language",
+      "pass": true,
+      "detail": "body=7881; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-errors",
+      "pass": true,
+      "detail": "body=926; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-mock",
+      "pass": true,
+      "detail": "body=2777; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-mastery",
+      "pass": true,
+      "detail": "body=798; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-library",
+      "pass": true,
+      "detail": "body=6183; active=s51-nav-item active"
+    },
+    {
+      "id": "NAV-settings",
+      "pass": true,
+      "detail": "body=3001; active=s51-nav-item active"
+    },
+    {
+      "id": "SKILL-reading",
+      "pass": true,
+      "detail": "16919 chars"
+    },
+    {
+      "id": "SKILL-writing",
+      "pass": true,
+      "detail": "14227 chars"
+    },
+    {
+      "id": "SKILL-listening",
+      "pass": true,
+      "detail": "11889 chars"
+    },
+    {
+      "id": "SKILL-speaking",
+      "pass": true,
+      "detail": "11841 chars"
+    },
+    {
+      "id": "READING-SUBMIT",
+      "pass": true,
+      "detail": "q=10; submitted=True"
+    },
+    {
+      "id": "READING-ERROR-TRANSFER",
+      "pass": true,
+      "detail": "errors=7"
+    },
+    {
+      "id": "WRITING-DRAFT-SAVE",
+      "pass": true,
+      "detail": "key=writing:1:task2; draft_keys=['writing:1:task2']"
+    },
+    {
+      "id": "WRITING-VERSION-UI",
+      "pass": true,
+      "detail": "version history UI present"
+    },
+    {
+      "id": "LISTENING-PLAYER-AND-ANSWER",
+      "pass": true,
+      "detail": "src=./audio/listening-day-01.mp3; q=5; saved=['0']"
+    },
+    {
+      "id": "SPEAKING-MANUAL-FALLBACK",
+      "pass": true,
+      "detail": "fields=17; saved_fields=['part1_0']; actions=32"
+    },
+    {
+      "id": "GAME-ARENA-HUB",
+      "pass": true,
+      "detail": "STAGE 36 · ADAPTIVE GAME ENGINE\nTrain with evidence. Improve with feedback.\n\nTo‘rtta IELTS skill studiyasi va oltita til laboratoriyasi bir xil kundalik material bilan ishlaydi. Har bir urinish dalil, natija va keyingi q"
+    },
+    {
+      "id": "POWER-LABS-CONTENT",
+      "pass": true,
+      "detail": "chars=11502"
+    },
+    {
+      "id": "TIL-LAB-PATTERNS",
+      "pass": true,
+      "detail": "pattern panel"
+    },
+    {
+      "id": "TIL-LAB-VOCAB",
+      "pass": true,
+      "detail": "vocabulary panel"
+    },
+    {
+      "id": "RESOURCE-LIBRARY",
+      "pass": true,
+      "detail": "library center rendered"
+    },
+    {
+      "id": "MOCK-STUDIO-RENDER",
+      "pass": true,
+      "detail": "MOCK EXAM STUDIO\nFull mock · Answer sheets · Adaptive review\n\nBarron’s Practice Exams asosida; official IELTS format, user-held material, human review va AI-ready feedback birlashtirildi.\n\nEvidence fi"
+    },
+    {
+      "id": "MOCK-CREATE-PERSISTENCE",
+      "pass": true,
+      "detail": "attempts=1; active=S31-1794419973416-xs7ri; tab=attempt"
+    },
+    {
+      "id": "MOCK-SAVE-EXIT",
+      "pass": true,
+      "detail": "tab=overview; attempts=1"
+    },
+    {
+      "id": "MASTERY-RENDER",
+      "pass": true,
+      "detail": "mastery analytics rendered"
+    },
+    {
+      "id": "SETTINGS-ACTIONS",
+      "pass": true,
+      "detail": "6 action controls"
+    },
+    {
+      "id": "BACKUP-EXPORT",
+      "pass": true,
+      "detail": "ielts-boost-backup-2026-11-11.json"
+    },
+    {
+      "id": "ADVANCED-STUDIO-LAUNCH",
+      "pass": true,
+      "detail": "panel=1"
+    },
+    {
+      "id": "ADVANCED-STUDIO-CLOSE",
+      "pass": true,
+      "detail": "studio closes back to main shell"
+    },
+    {
+      "id": "MOBILE-390-NO-HORIZONTAL-OVERFLOW",
+      "pass": true,
+      "detail": "{'vw': 390, 'doc': 390, 'body': 390}"
+    },
+    {
+      "id": "NO_PAGE_ERRORS",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "NO_CONSOLE_ERRORS",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "limitations": [
+    "Chromium uses exact Stage 54 HTML/JS/CSS/data/audio bytes through request routing and a localStorage API shim; it is not HTTPS/PWA acceptance.",
+    "Physical Android and microphone permission are not tested.",
+    "Service Worker offline lifecycle is tested in a separate context."
+  ]
+}
