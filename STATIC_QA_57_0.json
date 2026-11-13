@@ -1,0 +1,383 @@
+{
+  "release": "57.0.0-final-release",
+  "passed": 74,
+  "failed": 0,
+  "total": 74,
+  "checks": [
+    {
+      "name": "small_entry_shell",
+      "pass": true,
+      "detail": "2037"
+    },
+    {
+      "name": "stage57_title",
+      "pass": true,
+      "detail": "IELTS Boost · Stage 57 · Final Release"
+    },
+    {
+      "name": "skip_link_present",
+      "pass": true,
+      "detail": "skip-to-main link"
+    },
+    {
+      "name": "main_landmark_focusable",
+      "pass": true,
+      "detail": "main has keyboard focus target"
+    },
+    {
+      "name": "no_inline_styles",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "no_inline_runtime",
+      "pass": true,
+      "detail": "external scripts only"
+    },
+    {
+      "name": "css_cascade_order",
+      "pass": true,
+      "detail": "['./assets/css/app-core.css', './assets/css/stage40-50.css', './assets/css/stage51.css', './assets/css/stage56.css']"
+    },
+    {
+      "name": "boot_script_order",
+      "pass": true,
+      "detail": "['./assets/js/core/contract.js', './assets/js/core/module-registry.js', './assets/js/core/boot.js']"
+    },
+    {
+      "name": "contract_contains_both_hashes",
+      "pass": true,
+      "detail": "('0a953569367a2d0d25218da6786c95a6620a209a23687f36ad4e1f38324a85cc', '93ede67d828ea7922e45365fd8f5821eea2356053ba7c998a478d88089497051')"
+    },
+    {
+      "name": "app_data_sha256",
+      "pass": true,
+      "detail": "0a953569367a2d0d25218da6786c95a6620a209a23687f36ad4e1f38324a85cc"
+    },
+    {
+      "name": "vocabulary_sha256",
+      "pass": true,
+      "detail": "93ede67d828ea7922e45365fd8f5821eea2356053ba7c998a478d88089497051"
+    },
+    {
+      "name": "bootstrap_payload_60pct_smaller",
+      "pass": true,
+      "detail": "5938780"
+    },
+    {
+      "name": "core_daily_words_672",
+      "pass": true,
+      "detail": "672"
+    },
+    {
+      "name": "full_vocab_schema_19k",
+      "pass": true,
+      "detail": "{'schemaVersion': 1, 'wordCount': 19000}"
+    },
+    {
+      "name": "full_vocab_ids_unique_and_complete",
+      "pass": true,
+      "detail": "unique=19000; min=1; max=19000"
+    },
+    {
+      "name": "daily_core_has_84_sets",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "daily_word_ids_672",
+      "pass": true,
+      "detail": "672"
+    },
+    {
+      "name": "core_words_match_daily_sets",
+      "pass": true,
+      "detail": "core=672; daily=672"
+    },
+    {
+      "name": "all_core_ids_in_full_index",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "plan_days_84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "core_days_84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "four_skills_each_day",
+      "pass": true,
+      "detail": "84 × 4"
+    },
+    {
+      "name": "reading_questions_840",
+      "pass": true,
+      "detail": "840"
+    },
+    {
+      "name": "listening_questions_420",
+      "pass": true,
+      "detail": "420"
+    },
+    {
+      "name": "patterns_864",
+      "pass": true,
+      "detail": "864"
+    },
+    {
+      "name": "articles_61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "name": "skill_resources_336",
+      "pass": true,
+      "detail": "336"
+    },
+    {
+      "name": "listening_companions_84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "task1_datasets_84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "audio_84_files",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "audio_days_contiguous",
+      "pass": true,
+      "detail": "01–84"
+    },
+    {
+      "name": "boot_checks_672_core_words",
+      "pass": true,
+      "detail": "boot schema accepts core subset only"
+    },
+    {
+      "name": "boot_registers_lazy_vocabulary_module",
+      "pass": true,
+      "detail": "optional module registered but not eager-loaded"
+    },
+    {
+      "name": "legacy_runtime_has_lazy_loader",
+      "pass": true,
+      "detail": "full index fetched on Vocabulary Lab entry"
+    },
+    {
+      "name": "lazy_loader_checks_hash_and_schema",
+      "pass": true,
+      "detail": "integrity, schema, count, uniqueness, core-ID checks"
+    },
+    {
+      "name": "lazy_loader_does_not_drop_core_words",
+      "pass": true,
+      "detail": "core daily arrays initialized first, upgraded after external load"
+    },
+    {
+      "name": "vocabulary_games_gated",
+      "pass": true,
+      "detail": "vocabulary-only game waits for full index"
+    },
+    {
+      "name": "search_debounced",
+      "pass": true,
+      "detail": "both large-index fields debounced"
+    },
+    {
+      "name": "search_normalization_cached",
+      "pass": true,
+      "detail": "bounded normalisation caches"
+    },
+    {
+      "name": "accessibility_enhancement",
+      "pass": true,
+      "detail": "dynamic control names and current navigation"
+    },
+    {
+      "name": "boot_ready_is_stage57",
+      "pass": true,
+      "detail": "build identity"
+    },
+    {
+      "name": "module_registry_is_stage57",
+      "pass": true,
+      "detail": "module registry identity"
+    },
+    {
+      "name": "syntax_assets/js/core/contract.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "syntax_assets/js/core/module-registry.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "syntax_assets/js/core/boot.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "syntax_assets/js/compat/legacy-core.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "syntax_assets/js/modules/backup-manager.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "syntax_assets/js/modules/advanced-studio.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "syntax_assets/js/stage40-50.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "syntax_sw.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "sw_cache_bumped_to_57",
+      "pass": true,
+      "detail": "new release cache identity"
+    },
+    {
+      "name": "sw_optional_vocabulary_cache",
+      "pass": true,
+      "detail": "optional index cached on demand"
+    },
+    {
+      "name": "sw_vocabulary_not_precached",
+      "pass": true,
+      "detail": "large index excluded from install precache"
+    },
+    {
+      "name": "sw_preserves_audio_cache",
+      "pass": true,
+      "detail": "existing MP3 cache path preserved"
+    },
+    {
+      "name": "sw_preserves_existing_audio_cache_on_activate",
+      "pass": true,
+      "detail": "audio/vocabulary caches are not deleted on activation"
+    },
+    {
+      "name": "css_skip link",
+      "pass": true,
+      "detail": "s56-skip-link"
+    },
+    {
+      "name": "css_focus visible",
+      "pass": true,
+      "detail": ":focus-visible"
+    },
+    {
+      "name": "css_reduced motion",
+      "pass": true,
+      "detail": "prefers-reduced-motion:reduce"
+    },
+    {
+      "name": "css_forced colors",
+      "pass": true,
+      "detail": "forced-colors:active"
+    },
+    {
+      "name": "css_mobile breakpoint",
+      "pass": true,
+      "detail": "max-width:760px"
+    },
+    {
+      "name": "css_small phone breakpoint",
+      "pass": true,
+      "detail": "max-width:390px"
+    },
+    {
+      "name": "manifest_stage57",
+      "pass": true,
+      "detail": "IELTS Boost — Stage 57 Final Release"
+    },
+    {
+      "name": "target_repository_final_plan",
+      "pass": true,
+      "detail": "explicit repository/path contract"
+    },
+    {
+      "name": "manifest_relative_pages_scope",
+      "pass": true,
+      "detail": "{'id': './', 'start_url': './', 'scope': './'}"
+    },
+    {
+      "name": "index_resource_paths_project_relative",
+      "pass": true,
+      "detail": "entry document uses project-relative paths"
+    },
+    {
+      "name": "release_check_page_present",
+      "pass": true,
+      "detail": "production preflight page + script + stylesheet"
+    },
+    {
+      "name": "release_check_page_targets_final_plan",
+      "pass": true,
+      "detail": "visible preflight page uses final-plan path"
+    },
+    {
+      "name": "release_check_in_sw_shell",
+      "pass": true,
+      "detail": "offline-available diagnostic helper"
+    },
+    {
+      "name": "release_check_logic_syntax",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "sw_preserves_stage56_vocabulary_cache",
+      "pass": true,
+      "detail": "keep existing verified 19K vocabulary cache across Stage 57 upgrade"
+    },
+    {
+      "name": "diagnostics_validates_final_plan_target",
+      "pass": true,
+      "detail": "preflight checks /final-plan/ URL"
+    },
+    {
+      "name": "standalone_legacy_fallback_sha256",
+      "pass": true,
+      "detail": "1527dccc51e2fec26ea2b30e711000b69236e4d3f28cf7c907ee7929b37c4425"
+    },
+    {
+      "name": "stage55_backup_manager_preserved",
+      "pass": true,
+      "detail": "Stage 55 full-device backup still present"
+    },
+    {
+      "name": "stage54_compatibility_api_preserved",
+      "pass": true,
+      "detail": "stable legacy facade"
+    }
+  ],
+  "notes": [
+    "Static QA only; browser and public hosting checks are separate.",
+    "Android physical-device acceptance is not inferred from Chromium.",
+    "standalone.html is intentionally retained as a Stage 52 fallback."
+  ]
+}

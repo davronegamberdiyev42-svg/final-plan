@@ -1,0 +1,327 @@
+{
+  "release": "55.0.0-data-recovery",
+  "passed": 63,
+  "failed": 0,
+  "total": 63,
+  "checks": [
+    {
+      "name": "entry_shell_under_10kb",
+      "pass": true,
+      "detail": "1885"
+    },
+    {
+      "name": "no_inline_app_data",
+      "pass": true,
+      "detail": "app-data is externalized"
+    },
+    {
+      "name": "no_inline_runtime",
+      "pass": true,
+      "detail": "all executable scripts are external"
+    },
+    {
+      "name": "no_inline_css",
+      "pass": true,
+      "detail": "all styles externalized"
+    },
+    {
+      "name": "boot_script_order",
+      "pass": true,
+      "detail": "['./assets/js/core/contract.js', './assets/js/core/module-registry.js', './assets/js/core/boot.js']"
+    },
+    {
+      "name": "css_cascade_order",
+      "pass": true,
+      "detail": "['./assets/css/app-core.css', './assets/css/stage40-50.css', './assets/css/stage51.css']"
+    },
+    {
+      "name": "title_stage55",
+      "pass": true,
+      "detail": "IELTS Boost · Stage 55 · Full-device Data Recovery"
+    },
+    {
+      "name": "app_data_sha256_matches_contract",
+      "pass": true,
+      "detail": "8d6d4ec218ac0be3fe68c8f96de5771529740ed690cc64d9090180f4160e2e84"
+    },
+    {
+      "name": "app_data_byte_count",
+      "pass": true,
+      "detail": "15201551"
+    },
+    {
+      "name": "plan_84_days",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "core_84_days",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "four_skills_each_day",
+      "pass": true,
+      "detail": "84 × four skills"
+    },
+    {
+      "name": "reading_840",
+      "pass": true,
+      "detail": "840"
+    },
+    {
+      "name": "listening_420",
+      "pass": true,
+      "detail": "420"
+    },
+    {
+      "name": "vocabulary_19000",
+      "pass": true,
+      "detail": "19000"
+    },
+    {
+      "name": "patterns_864",
+      "pass": true,
+      "detail": "864"
+    },
+    {
+      "name": "articles_61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "name": "skill_resources_336",
+      "pass": true,
+      "detail": "336"
+    },
+    {
+      "name": "listening_companions_84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "task1_datasets_84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "audio_84_files",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "name": "audio_days_01_84_no_gaps",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "exists_assets/js/core/contract.js",
+      "pass": true,
+      "detail": "846"
+    },
+    {
+      "name": "syntax_assets/js/core/contract.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "exists_assets/js/core/module-registry.js",
+      "pass": true,
+      "detail": "2268"
+    },
+    {
+      "name": "syntax_assets/js/core/module-registry.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "exists_assets/js/core/boot.js",
+      "pass": true,
+      "detail": "6371"
+    },
+    {
+      "name": "syntax_assets/js/core/boot.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "exists_assets/js/compat/legacy-core.js",
+      "pass": true,
+      "detail": "654328"
+    },
+    {
+      "name": "syntax_assets/js/compat/legacy-core.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "exists_assets/js/modules/backup-manager.js",
+      "pass": true,
+      "detail": "20095"
+    },
+    {
+      "name": "syntax_assets/js/modules/backup-manager.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "exists_assets/js/modules/advanced-studio.js",
+      "pass": true,
+      "detail": "69852"
+    },
+    {
+      "name": "syntax_assets/js/modules/advanced-studio.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "exists_assets/js/stage40-50.js",
+      "pass": true,
+      "detail": "698"
+    },
+    {
+      "name": "syntax_assets/js/stage40-50.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "exists_sw.js",
+      "pass": true,
+      "detail": "4492"
+    },
+    {
+      "name": "syntax_sw.js",
+      "pass": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "core_readonly_api_export",
+      "pass": true,
+      "detail": "stable public methods + metadata snapshot"
+    },
+    {
+      "name": "core_has_main_storage_key",
+      "pass": true,
+      "detail": "main namespace unchanged"
+    },
+    {
+      "name": "core_has_legacy_migration_key",
+      "pass": true,
+      "detail": "legacy namespace unchanged"
+    },
+    {
+      "name": "boot_sha256_and_schema_guard",
+      "pass": true,
+      "detail": "integrity and schema guards"
+    },
+    {
+      "name": "boot_load_sequence",
+      "pass": true,
+      "detail": "data → core → backup manager → advanced studio"
+    },
+    {
+      "name": "standalone_byte_identical_to_stage52",
+      "pass": true,
+      "detail": "1527dccc51e2fec26ea2b30e711000b69236e4d3f28cf7c907ee7929b37c4425"
+    },
+    {
+      "name": "84_mp3_byte_identical_to_stage52",
+      "pass": true,
+      "detail": "all 84 MP3 hashes match Stage 52"
+    },
+    {
+      "name": "unchanged_data/stage47-skill-resources.json",
+      "pass": true,
+      "detail": "070f548cbb9807f774152988f2f6fa98d95cc12ee2e3d565b63a9301835da7a8"
+    },
+    {
+      "name": "unchanged_data/stage47-listening-companions.json",
+      "pass": true,
+      "detail": "9212335881ce266e6ab23d01c682925782b1d938278e4357c413a887d1743d17"
+    },
+    {
+      "name": "unchanged_data/stage47-task1-datasets.json",
+      "pass": true,
+      "detail": "a718a72e61ce8dde056d11e915f013a6fa3ea2e32c2fb2154ce9ffe520f24045"
+    },
+    {
+      "name": "unchanged_data/stage48-vocabulary-coverage.json",
+      "pass": true,
+      "detail": "60c351453017a4146366be0db0940cb18f00581bcf457c8b700edc2fc381520e"
+    },
+    {
+      "name": "unchanged_assets/css/stage40-50.css",
+      "pass": true,
+      "detail": "7c57b07e4b658a3eaadef8014dc06bf01bb2d7f1b088cef49423e63cc40a411c"
+    },
+    {
+      "name": "unchanged_assets/css/stage51.css",
+      "pass": true,
+      "detail": "00fbe4a4e1aff8fe686c0f9459015315e3127d78b1362cd438e286880e274a84"
+    },
+    {
+      "name": "advanced_studio_exposes_readonly_backup_snapshot",
+      "pass": true,
+      "detail": "read-only snapshot API for volatile in-memory state"
+    },
+    {
+      "name": "backup_manager_declares_full_device_format",
+      "pass": true,
+      "detail": "versioned unified envelope"
+    },
+    {
+      "name": "backup_manager_captures_both_audio_databases",
+      "pass": true,
+      "detail": "dual IndexedDB media capture and restore"
+    },
+    {
+      "name": "backup_manager_validates_before_write",
+      "pass": true,
+      "detail": "preflight validation before storage mutation"
+    },
+    {
+      "name": "backup_controls_present_in_both_ui",
+      "pass": true,
+      "detail": "main Settings + Advanced Studio"
+    },
+    {
+      "name": "backup_manager_has_all_namespaces",
+      "pass": true,
+      "detail": "3 local state namespaces"
+    },
+    {
+      "name": "six_inline_css_blocks_preserved",
+      "pass": true,
+      "detail": "original=87449 chars; new=87915 chars"
+    },
+    {
+      "name": "sw_precaches_new_architecture",
+      "pass": true,
+      "detail": "['./assets/css/app-core.css', './assets/js/core/contract.js', './assets/js/core/module-registry.js', './assets/js/core/boot.js', './assets/js/compat/legacy-core.js', './assets/js/modules/backup-manager.js', './assets/js/modules/advanced-studio.js', './data/app-data.json']"
+    },
+    {
+      "name": "sw_shell_cache_bumped",
+      "pass": true,
+      "detail": "Stage 55 cache namespace"
+    },
+    {
+      "name": "sw_audio_cache_preserved",
+      "pass": true,
+      "detail": "preserve pre-existing Listening MP3 cache"
+    },
+    {
+      "name": "sw_audio_not_bulk_precached",
+      "pass": true,
+      "detail": "84 MP3 remain user-cached on demand"
+    },
+    {
+      "name": "manifest_relative_scope",
+      "pass": true,
+      "detail": "{'start_url': './', 'scope': './'}"
+    }
+  ],
+  "limitations": [
+    "Browser/device and public deployment acceptance are separate tests.",
+    "Legacy core remains an explicit compatibility kernel; its internal feature functions are not yet fully split by domain."
+  ]
+}
